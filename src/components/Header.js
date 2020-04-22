@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <header className="header">
       <section className="header-section">
-        <Typing loop="true" hideCursor="true" speed={150}>
+        <Typing loop={true} hideCursor="true" speed={150}>
           <span className="header-span">Web Developer</span>
           <Typing.Reset count={1} delay={450} />
         </Typing>
