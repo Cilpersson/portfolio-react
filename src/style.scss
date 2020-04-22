@@ -26,8 +26,7 @@ h1 {
   position: absolute;
   z-index: 10;
   margin: 0;
-
-  font-size: 14vw;
+  font-size: 45px;
 
   color: $grey;
 }
@@ -370,6 +369,9 @@ footer {
 }
 
 @media (min-width: 668px) {
+  h1 {
+    font-size: 80px;
+  }
   .card-grid {
     grid-template-columns: 1fr 1fr;
 
@@ -395,6 +397,9 @@ footer {
 }
 
 @media (min-width: 1024px) {
+  h1 {
+    font-size: 14vw;
+  }
   .main-wrapper {
     padding: 20px 250px;
   }
