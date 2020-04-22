@@ -105,7 +105,8 @@ export const Projects = () => {
           <h4 className="github-link">GITHUB REPO</h4>
           <p>
             <span>SITE.</span> Music site built with React, using API to fetch
-            data <span style={{ textDecoration: "underline" }}>&gt;&gt;</span>
+            data - pair project{" "}
+            <span style={{ textDecoration: "underline" }}>&gt;&gt;</span>
           </p>
           <div className="tag-container">
             <h4>react</h4>
