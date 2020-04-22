@@ -156,14 +156,14 @@ span {
   color: $white;
   position: relative;
   font-weight: lighter;
+}
 
-  &::before {
-    content: "";
-    position: relative;
-    opacity: 0;
-    transition: opacity 0.2 ease-in-out;
-    animation: changewords 4s ease-in-out infinite;
-  }
+.header-span::before {
+  content: "";
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.2 ease-in-out;
+  animation: changewords 4s ease-in-out infinite;
 }
 
 /*NAV BAR*/
@@ -230,7 +230,7 @@ li {
   height: 400px;
 
   padding: 30px;
-  margin-top: 20px;
+  margin: auto;
 
   box-sizing: border-box;
   box-shadow: inset -10px 0px $lightgrey, inset -20px 0px $yellow,
