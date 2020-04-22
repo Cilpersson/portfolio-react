@@ -133,16 +133,8 @@ span {
 
 .header-span {
   color: #fff;
-  position: relative;
+  font-size: 14vw;
   font-weight: lighter;
-}
-
-.header-span::before {
-  content: "";
-  position: relative;
-  opacity: 0;
-  transition: opacity 0.2 ease-in-out;
-  animation: changewords 4s ease-in-out infinite;
 }
 
 /*NAV BAR*/
