@@ -19,7 +19,7 @@ export const Thoughts = () => {
             src={thoughtThree}
             alt="Hands with plastic gloves fist bumping"
           />
-          <span className="thoughts-span">APR 2020</span>
+          <h4 className="thoughts-span"> APR 2020</h4>
           <p className="thoughts-header">Keep calm and code on!</p>
           <p>
             It’s been a weird start to this decade, the fact that a pandemic is
@@ -42,7 +42,7 @@ export const Thoughts = () => {
             src={thoughtTwo}
             alt="Pink neon light that says breath"
           />
-          <span className="thoughts-span">MAR 2020</span>
+          <h4 className="thoughts-span">MAR 2020</h4>
           <p className="thoughts-header">Is this really impossible?</p>
           <p>
             The second sprint, and first part, of the course is over. It feels a
