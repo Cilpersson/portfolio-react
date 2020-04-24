@@ -5,6 +5,7 @@ import thoughts from "../images/projects/happythoughts.png";
 import quiz from "../images/projects/redux-quiz.png";
 import todo from "../images/projects/todo.png";
 import { ReactNative } from "components/ReactNative";
+import { GithubTiny } from "./GithubTiny";
 
 export const Projects = () => {
   return (
@@ -24,7 +25,7 @@ export const Projects = () => {
               <h2 className="project-title">FOOD QUIZ</h2>
             </div>
           </a>
-          <h4 className="github-link">GITHUB REPO</h4>
+          <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
           <p>
             <span>APP.</span> Food quiz created with React and Redux - group
             project{" "}
@@ -51,7 +52,7 @@ export const Projects = () => {
               <h2 className="project-title">TODO APP</h2>
             </div>
           </a>
-          <h4 className="github-link">GITHUB REPO</h4>
+          <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
           <p>
             <span>APP.</span> Todo app built with React & Redux{" "}
             <span style={{ textDecoration: "underline" }}>&gt;&gt;</span>
@@ -77,7 +78,7 @@ export const Projects = () => {
               <h2 className="project-title">MOVIE SITE</h2>
             </div>
           </a>
-          <h4 className="github-link">GITHUB REPO</h4>
+          <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
           <p>
             <span>SITE.</span> Multi page website built with React, using API to
             fetch data{" "}
@@ -104,7 +105,7 @@ export const Projects = () => {
               <h2 className="project-title">POPULAR MUSIC</h2>
             </div>
           </a>
-          <h4 className="github-link">GITHUB REPO</h4>
+          <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
           <p>
             <span>SITE.</span> Music site built with React, using API to fetch
             data - pair project{" "}
@@ -133,7 +134,7 @@ export const Projects = () => {
               <h2 className="project-title">HAPPY THOUGHTS</h2>
             </div>
           </a>
-          <h4 className="github-link">GITHUB REPO</h4>
+          <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
           <p>
             <span>APP.</span> Site to read, like and post short messages. Posts
             and likes gets posted to an API{" "}

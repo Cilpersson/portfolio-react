@@ -19,7 +19,7 @@ export const Tech = () => {
         </div>
         <div className="tech-container">Node.js, Mongo DB & SQL,</div>
       </section>
-      <div>
+      <div className="tech-image-container">
         <img
           className="tech-image"
           src={techimage}

@@ -1,4 +1,5 @@
 import React from "react";
+import { GithubTiny } from "./GithubTiny";
 
 export const ReactNative = () => {
   return (
@@ -20,7 +21,7 @@ export const ReactNative = () => {
         }}
       ></div>
 
-      <h4 className="github-link">GITHUB REPO</h4>
+      <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
       <p>
         <span>APP.</span> Mobile app built with React Native, using API to fetch
         data about a random beer{" "}
