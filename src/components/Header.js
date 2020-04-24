@@ -1,6 +1,6 @@
 import React from "react";
 import Typing from "react-typing-animation";
-
+import { HashLink as Link } from "react-router-hash-link";
 import { DownArrow } from "./DownArrow";
 
 export const Header = () => {
@@ -12,9 +12,11 @@ export const Header = () => {
           <Typing.Reset count={1} delay={450} />
         </Typing>
       </section>
-      <a href="#nav" className="header-button">
-        <DownArrow />
-      </a>
+      <div className="header-button">
+        <Link smooth="true" to="/#nav">
+          <DownArrow />
+        </Link>
+      </div>
     </header>
   );
 };

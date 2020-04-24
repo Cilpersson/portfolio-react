@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -96,6 +92,7 @@ p {
 a {
   text-decoration: none;
   color: $white;
+  width: fit-content;
 }
 span {
   font-family: "Roboto";
@@ -103,9 +100,15 @@ span {
   color: $black;
 }
 
+.emoji {
+  text-align: center;
+  font-size: 65px;
+}
+
 .active {
   color: $yellow;
   font-weight: bolder;
+  width: fit-content;
 }
 /*HEADER*/
 .header {
@@ -127,11 +130,25 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 
   height: 100%;
   width: 100%;
 
   background: #00000015;
+}
+
+.header-social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: $white;
+  height: 100px;
+  width: 280px;
+  margin: 0 auto;
+  top: 5%;
+  position: absolute;
 }
 
 .header-img {
@@ -156,32 +173,22 @@ span {
   font-size: 14vw;
   font-weight: lighter;
 }
-
-// .header-span::before {
-//   content: "";
-//   position: relative;
-//   opacity: 0;
-//   transition: opacity 0.2 ease-in-out;
-//   animation: changewords 4s ease-in-out infinite;
-// }
-
 /*NAV BAR*/
 nav {
   display: flex;
   flex-direction: column;
-
-  padding-top: 18px;
-  margin-bottom: 30px;
+  padding: 18px 0 0 0;
 
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 10;
 
   background: $black;
 }
 
 .nav-title {
   color: $yellow;
+  width: fit-content;
 }
 
 ul {
@@ -196,18 +203,17 @@ li {
   list-style: none;
 }
 
-.main-wrapper {
-  display: flex;
-  min-height: 84vh;
-  flex-direction: column;
-
-  padding: 10px;
-
-  background: $white;
+.testing {
+  height: 82px;
 }
 
-.filler {
-  flex: 1;
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  min-height: 92vh;
+
+  background: $white;
 }
 
 /*WELCOME*/
@@ -224,10 +230,10 @@ li {
 
 .about-me {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 400px;
 
   padding: 30px;
   margin: auto;
@@ -238,15 +244,20 @@ li {
 }
 
 .about-me-p {
-  text-align: justify;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.about-me-span-mono {
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 /*TECH*/
 .all-tech-containers {
   display: grid;
   grid-template-columns: 1fr;
-
-  margin: auto;
 }
 
 .tech-container {
@@ -260,8 +271,7 @@ li {
 
 .tech-image {
   width: 100%;
-  height: 100%;
-
+  height: auto;
   margin-top: 20px;
 }
 
@@ -357,6 +367,35 @@ li {
 .tag-container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.thoughts {
+  padding: 46px 36px;
+  display: flex;
+  flex-direction: column;
+}
+.thoughts-header {
+  font-weight: bold;
+  margin: 5px 0;
+  font-size: 17px;
+  align-self: flex-start;
+}
+
+.thoughts-span {
+  font-weight: normal;
+  align-self: flex-start;
+}
+
+.thoughts-container {
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+  width: 80%;
+}
+
+.thoughts-img {
+  width: 100%;
+  align-self: center;
 }
 
 footer {
