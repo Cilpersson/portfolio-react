@@ -12,6 +12,7 @@ export const Projects = () => {
     <section id="projects" className="main-wrapper">
       <div className="testing"></div>
       <h3>FEATURED PROJECTS</h3>
+      {<ReactNative />}
       <div className="card-grid">
         <div className="project-card">
           <a
@@ -151,7 +152,6 @@ export const Projects = () => {
           </div>
         </div>
       </div>
-      {<ReactNative />}
     </section>
   );
 };

@@ -4,22 +4,19 @@ import { GithubTiny } from "./GithubTiny";
 export const ReactNative = () => {
   return (
     <div>
-      <div
-        data-snack-id="@cilpersson/react-native---first-project"
-        data-snack-platform="ios"
-        data-snack-preview="true"
-        data-snack-theme="light"
+      <iframe
+        src="https://snack.expo.io/@cilpersson/react-native---first-project?platform=ios"
         style={{
           overflow: "hidden",
           background: "#fafafa",
           border: "1px solid rgba(0,0,0,.08)",
           borderRadius: "4px",
-          height: "600px",
+          height: "800px",
           width: "100%",
           margin: "auto",
           marginTop: "20px",
         }}
-      ></div>
+      ></iframe>
 
       <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
       <p>
