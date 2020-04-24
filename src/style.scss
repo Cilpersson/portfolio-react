@@ -268,11 +268,12 @@ li {
   box-sizing: border-box;
   box-shadow: inset -10px 0px $lightgrey, inset 0px 10px $yellow;
 }
-
-.tech-image {
-  width: 100%;
-  height: auto;
+.tech-image-container {
   margin-top: 20px;
+  width: 100%;
+}
+.tech-image {
+  width: inherit;
 }
 
 /*PROJECTS*/

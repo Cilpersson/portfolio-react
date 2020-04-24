@@ -19,11 +19,13 @@ export const Tech = () => {
         </div>
         <div className="tech-container">Node.js, Mongo DB & SQL,</div>
       </section>
-      <img
-        className="tech-image"
-        src={techimage}
-        alt="Computer and cup off coffee"
-      />
+      <div>
+        <img
+          className="tech-image"
+          src={techimage}
+          alt="Computer and cup off coffee"
+        />
+      </div>
     </section>
   );
 };
