@@ -89,6 +89,8 @@ span {
 .emoji {
   text-align: center;
   font-size: 65px;
+  margin: 0;
+  opacity: 0.8;
 }
 
 .active {
@@ -183,13 +185,10 @@ li {
   list-style: none;
 }
 
-.testing {
-  height: 82px;
-}
-
 .main-wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 0 10px;
   min-height: 92vh;
   background: #fff;
@@ -204,7 +203,7 @@ li {
   background: #fbd444;
   height: 100px;
   width: 280px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .about-me {
@@ -213,21 +212,25 @@ li {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 30px;
+  padding: 40px;
   margin: auto;
   box-sizing: border-box;
   box-shadow: inset -10px 0px #d6d1cd, inset -20px 0px #fbd444, inset 10px 0px #fbd444, inset 20px 0px #d6d1cd;
 }
 
-.about-me-p {
-  font-family: monospace;
-  font-size: 18px;
+.about-me-code {
+  background: #000;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
 }
 
-.about-me-span-mono {
-  font-family: monospace;
-  font-size: 20px;
-  font-weight: bolder;
+.about-me-p {
+  margin: 5px;
+}
+
+.about-me-span {
+  margin-left: 10px;
 }
 
 /*TECH*/
@@ -419,6 +422,9 @@ footer {
   .all-tech-containers {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+  .tech-container {
+    padding: 20px 40px;
   }
   .about-me-p {
     width: 75%;

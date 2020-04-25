@@ -107,6 +107,8 @@ span {
 .emoji {
   text-align: center;
   font-size: 65px;
+  margin: 0;
+  opacity: 0.8;
 }
 
 .active {
@@ -207,13 +209,14 @@ li {
   list-style: none;
 }
 
-.testing {
-  height: 82px;
-}
+// .testing {
+//   height: 62px;
+// }
 
 .main-wrapper {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 0 10px;
   min-height: 92vh;
 
@@ -229,7 +232,7 @@ li {
   background: $yellow;
   height: 100px;
   width: 280px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .about-me {
@@ -239,7 +242,7 @@ li {
   align-items: center;
   width: 100%;
 
-  padding: 30px;
+  padding: 40px;
   margin: auto;
 
   box-sizing: border-box;
@@ -247,15 +250,21 @@ li {
     inset 10px 0px $yellow, inset 20px 0px $lightgrey;
 }
 
-.about-me-p {
-  font-family: monospace;
-  font-size: 18px;
+.about-me-code {
+  background: $black;
+
+  padding: 10px;
+  border-radius: 10px;
+
+  width: fit-content;
 }
 
-.about-me-span-mono {
-  font-family: monospace;
-  font-size: 20px;
-  font-weight: bolder;
+.about-me-p {
+  margin: 5px;
+}
+
+.about-me-span {
+  margin-left: 10px;
 }
 
 /*TECH*/
@@ -384,9 +393,6 @@ li {
   background: $black;
 }
 
-.text-wrapper {
-}
-
 .tag-container {
   display: flex;
   flex-wrap: wrap;
@@ -451,6 +457,10 @@ footer {
   .all-tech-containers {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+
+  .tech-container {
+    padding: 20px 40px;
   }
 
   .about-me-p {
