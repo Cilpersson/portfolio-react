@@ -366,6 +366,24 @@ li {
   display: flex;
 }
 
+.code-button {
+  color: $black;
+  background: $lightgrey;
+  width: fit-content;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  padding: 4px;
+  margin: 20px auto;
+  border: none;
+  min-height: 39px;
+}
+
+.code-button:hover {
+  color: $yellow;
+  background: $black;
+}
+
 .text-wrapper {
 }
 

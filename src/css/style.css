@@ -55,15 +55,18 @@ h4 {
   font-family: "Roboto";
   color: #000;
   background: #fbd444;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   letter-spacing: 6px;
+  text-align: center;
   padding: 4px;
   margin: 10px auto;
   width: 100%;
-  text-align: center;
   box-sizing: border-box;
-  box-shadow: inset 0px 15px #d6d1cd;
+  box-shadow: inset 0px 16px #d6d1cd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 p {
@@ -242,10 +245,13 @@ li {
   box-shadow: inset -10px 0px #d6d1cd, inset 0px 10px #fbd444;
 }
 
-.tech-image {
-  width: 100%;
-  height: auto;
+.tech-image-container {
   margin-top: 20px;
+  width: 100%;
+}
+
+.tech-image {
+  width: inherit;
 }
 
 /*PROJECTS*/
@@ -334,6 +340,24 @@ li {
   display: flex;
 }
 
+.code-button {
+  color: #000;
+  background: #d6d1cd;
+  width: fit-content;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  padding: 4px;
+  margin: 20px auto;
+  border: none;
+  min-height: 39px;
+}
+
+.code-button:hover {
+  color: #fbd444;
+  background: #000;
+}
+
 .tag-container {
   display: flex;
   flex-wrap: wrap;
@@ -353,7 +377,7 @@ li {
 }
 
 .thoughts-span {
-  font-weight: normal;
+  font-weight: bolder;
   align-self: flex-start;
 }
 

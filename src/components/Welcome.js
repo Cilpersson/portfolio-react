@@ -9,7 +9,9 @@ export const Welcome = () => {
       <div className="testing"></div>
       <h3>ABOUT ME</h3>
 
-      <span className="emoji">👋</span>
+      <span className="emoji" role="img" aria-label="Waving hand">
+        👋
+      </span>
       <section className="about-me">
         <p className="about-me-p">
           {" "}

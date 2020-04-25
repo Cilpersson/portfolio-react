@@ -12,35 +12,8 @@ export const Projects = () => {
     <section id="projects" className="main-wrapper">
       <div className="testing"></div>
       <h3>FEATURED PROJECTS</h3>
-      {<ReactNative />}
-      <div className="card-grid">
-        <div className="project-card">
-          <a
-            href="https://food-quiz.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="project-view">
-              <img src={quiz} alt="Food quiz frontpage" />
-              <div className="layer"></div>
-              <h2 className="project-title">FOOD QUIZ</h2>
-            </div>
-          </a>
-          <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
-          <p>
-            <span>APP.</span> Food quiz created with React and Redux - group
-            project{" "}
-            <span style={{ textDecoration: "underline" }}>&gt;&gt;</span>
-          </p>
-          <div className="tag-container">
-            <h4>react</h4>
-            <h4>redux</h4>
-            <h4>JSX</h4>
-            <h4>styled-components</h4>
-            <h4>git</h4>
-          </div>
-        </div>
 
+      <div className="card-grid">
         <div className="project-card">
           <a
             href="https://perssons-todo.netlify.app/"
@@ -53,7 +26,13 @@ export const Projects = () => {
               <h2 className="project-title">TODO APP</h2>
             </div>
           </a>
-          <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+          <a
+            href="https://github.com/Cilpersson/project-todos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+          </a>
           <p>
             <span>APP.</span> Todo app built with React & Redux{" "}
             <span style={{ textDecoration: "underline" }}>&gt;&gt;</span>
@@ -79,7 +58,13 @@ export const Projects = () => {
               <h2 className="project-title">MOVIE SITE</h2>
             </div>
           </a>
-          <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+          <a
+            href="https://github.com/Cilpersson/project-movies"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+          </a>
           <p>
             <span>SITE.</span> Multi page website built with React, using API to
             fetch data{" "}
@@ -106,7 +91,14 @@ export const Projects = () => {
               <h2 className="project-title">POPULAR MUSIC</h2>
             </div>
           </a>
-          <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+
+          <a
+            href="https://github.com/Cilpersson/project-music-releases"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+          </a>
           <p>
             <span>SITE.</span> Music site built with React, using API to fetch
             data - pair project{" "}
@@ -135,7 +127,13 @@ export const Projects = () => {
               <h2 className="project-title">HAPPY THOUGHTS</h2>
             </div>
           </a>
-          <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+          <a
+            href="https://github.com/Cilpersson/project-happy-thoughts"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+          </a>
           <p>
             <span>APP.</span> Site to read, like and post short messages. Posts
             and likes gets posted to an API{" "}
@@ -151,7 +149,40 @@ export const Projects = () => {
             <h4>SASS</h4>
           </div>
         </div>
+        <div className="project-card">
+          <a
+            href="https://food-quiz.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="project-view">
+              <img src={quiz} alt="Food quiz frontpage" />
+              <div className="layer"></div>
+              <h2 className="project-title">FOOD QUIZ</h2>
+            </div>
+          </a>
+          <a
+            href="https://github.com/Cilpersson/project-redux-quiz-hippos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+          </a>
+          <p>
+            <span>APP.</span> Food quiz created with React and Redux - group
+            project{" "}
+            <span style={{ textDecoration: "underline" }}>&gt;&gt;</span>
+          </p>
+          <div className="tag-container">
+            <h4>react</h4>
+            <h4>redux</h4>
+            <h4>JSX</h4>
+            <h4>styled-components</h4>
+            <h4>git</h4>
+          </div>
+        </div>
       </div>
+      {<ReactNative />}
     </section>
   );
 };
