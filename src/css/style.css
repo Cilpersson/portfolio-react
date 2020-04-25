@@ -446,6 +446,9 @@ footer {
     font-size: 20px;
     width: 50%;
   }
+  .testing {
+    display: none;
+  }
 }
 
 @keyframes floating {
