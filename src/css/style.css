@@ -203,7 +203,7 @@ li {
   flex-direction: column;
   justify-content: flex-start;
   padding: 0 10px;
-  min-height: 90vh;
+  min-height: 92vh;
   background: #fff;
 }
 
@@ -369,6 +369,7 @@ li {
 }
 
 .code-button {
+  display: none;
   color: #000;
   background: #d6d1cd;
   width: fit-content;
@@ -469,6 +470,17 @@ footer {
   }
   .testing {
     display: 62px;
+  }
+  .code-button {
+    display: block;
+  }
+  .wrapper-404 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 10px;
+    min-height: 92vh;
+    background: #fff;
   }
 }
 

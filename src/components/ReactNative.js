@@ -48,9 +48,7 @@ export const ReactNative = () => {
         </div>
       )}
       <button className="code-button" onClick={() => handeOnClick()}>
-        {load
-          ? "Click to hide embeded code"
-          : "Click to view embeded code, not recomended for mobile"}
+        {load ? "Click to hide embeded code" : "Click to view embeded code"}
       </button>
     </>
   );

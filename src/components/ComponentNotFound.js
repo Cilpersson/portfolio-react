@@ -12,6 +12,7 @@ export const ComponentNotFound = () => {
         options={{
           animationData: animation,
         }}
+        width="60%"
       />
     </section>
   );
