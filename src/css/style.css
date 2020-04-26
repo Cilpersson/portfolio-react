@@ -237,7 +237,7 @@ li {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 40px;
+  padding: 30px;
   margin: auto;
   box-sizing: border-box;
   box-shadow: inset -10px 0px #d6d1cd, inset -20px 0px #fbd444, inset 10px 0px #fbd444, inset 20px 0px #d6d1cd;
@@ -451,6 +451,9 @@ footer {
   }
   .tech-container {
     padding: 20px 40px;
+  }
+  .about-me {
+    padding: 40px;
   }
   .about-me-p {
     width: 75%;

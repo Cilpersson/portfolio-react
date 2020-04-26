@@ -62,6 +62,7 @@ const Terminal = styled.section`
   margin: auto;
 
   border-radius: 6px;
+  box-shadow: 0px 0px 10px 1px #808080;
 
   background: #1c2024;
 `;
@@ -92,5 +93,9 @@ const TextArea = styled.div`
   font-family: monospace;
   font-size: 18px;
 
-  padding: 30px;
+  padding: 20px;
+
+  @media (min-width: 668px) {
+    padding: 30px 35px;
+  }
 `;
