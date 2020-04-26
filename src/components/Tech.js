@@ -45,7 +45,7 @@ export const Tech = () => {
         <img
           className="tech-image"
           src={techimage}
-          alt="Computer and cup off coffee"
+          alt="Computer and cup of coffee"
         />
       </div>
     </section>

@@ -13,12 +13,13 @@ export const ReactNative = () => {
           <iframe
             title="React native code"
             src="https://snack.expo.io/@cilpersson/react-native---first-project?platform=ios"
+            // src={`https://appetize.io/embed/8bnmakzrptf1hv9dq7v7bnteem?autoplay=false&debug=true&device=iphone6s&deviceColor=black&embed=true&orientation=portrait&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXKernelLaunchUrlDefaultsKey%22:%22exp:%2F%2Fexpo.io%2F@cilpersson%2Freact-native---first-project%2BKtk9Dy3E3%22,%22EXKernelDisableNuxDefaultsKey%22:true%7D&scale=75&osVersion=13.3`}
             style={{
               overflow: "hidden",
               background: "#fafafa",
               border: "1px solid rgba(0,0,0,.08)",
               borderRadius: "4px",
-              height: "600px",
+              height: "725px",
               width: "100%",
               margin: "auto",
               marginTop: "20px",
