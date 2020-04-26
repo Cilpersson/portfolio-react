@@ -6,12 +6,12 @@ export const ComponentNotFound = () => {
   return (
     <section className="wrapper-404">
       <div className="testing"></div>
-      <h3>OH NO 🤭</h3>
+      <h3 className="text-404">OH NO 🤭</h3>
+
       <Lottie
         options={{
           animationData: animation,
         }}
-        height="800px"
       />
     </section>
   );
