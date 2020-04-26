@@ -13,7 +13,7 @@ export const Header = () => {
         </Typing>
       </section>
       <div className="header-button">
-        <Link smooth="true" to="/#nav">
+        <Link smooth="true" to="/#welcome">
           <DownArrow />
         </Link>
       </div>

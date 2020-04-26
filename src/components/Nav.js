@@ -4,17 +4,17 @@ import { NavHashLink as NavLink } from "react-router-hash-link";
 export const Nav = () => {
   return (
     <nav id="nav">
-      <NavLink smooth="true" to="/#nav">
+      <NavLink smooth="true" to="/#welcome">
         <h2 className="nav-title">$ whoami</h2>
       </NavLink>
       <ul>
-        <NavLink smooth="true" to="/tech#nav">
+        <NavLink smooth="true" to="/tech#tech">
           <li>TECH</li>
         </NavLink>
-        <NavLink smooth="true" to="/projects#nav">
+        <NavLink smooth="true" to="/projects#projects">
           <li>PROJECTS</li>
         </NavLink>
-        <NavLink smooth="true" to="/thoughts#nav">
+        <NavLink smooth="true" to="/thoughts#thoughts">
           <li>THOUGHTS</li>
         </NavLink>
       </ul>
