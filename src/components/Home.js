@@ -7,6 +7,7 @@ import { Tech } from "./Tech";
 import { Projects } from "./Projects";
 import { Thoughts } from "./Thoughts";
 import { Footer } from "./Footer";
+import { ComponentNotFound } from "components/ComponentNotFound";
 
 export const Home = () => {
   return (
@@ -17,14 +18,17 @@ export const Home = () => {
         <Route path="/" exact>
           <Welcome />
         </Route>
-        <Route path="/projects">
+        <Route path="/projects" exact>
           <Projects />
         </Route>
-        <Route path="/tech">
+        <Route path="/tech" exact>
           <Tech />
         </Route>
-        <Route path="/thoughts">
+        <Route path="/thoughts" exact>
           <Thoughts />
+        </Route>
+        <Route path="*">
+          <ComponentNotFound />
         </Route>
       </Switch>
       <Footer />
