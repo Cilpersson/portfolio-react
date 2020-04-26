@@ -186,7 +186,7 @@ li {
 }
 
 .testing {
-  height: 62px;
+  height: 82px;
 }
 
 .main-wrapper {
@@ -445,6 +445,9 @@ footer {
   .about-me-p {
     font-size: 20px;
     width: 50%;
+  }
+  .testing {
+    display: 62px;
   }
 }
 
