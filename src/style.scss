@@ -98,6 +98,59 @@ a {
   color: $white;
   width: fit-content;
 }
+
+.credit {
+  color: $black;
+  font-size: 28px;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.credit-single {
+  color: $black;
+  font-size: 28px;
+  margin: 50px 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.credit-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  margin: auto;
+  min-height: 90vh;
+  max-width: 375px;
+  background: $white;
+}
+
+.credit-a {
+  color: $black;
+  background: $yellow;
+  margin-left: 5px;
+  max-width: 110px;
+  font-weight: 700;
+}
+
+.credit-wrapper-lottie {
+  display: flex;
+  flex-direction: column-reverse;
+  align-self: flex-end;
+  margin: 50px 0;
+}
+
+.credit-wrapper-icons {
+  margin: 50px 0;
+}
+
+.credit-wrapper-social-media {
+  display: flex;
+  flex-direction: column;
+  background: $yellow;
+}
+
 span {
   font-family: "Roboto";
   font-weight: bold;
@@ -453,15 +506,6 @@ li {
   align-self: center;
 }
 
-footer {
-  height: 64px;
-  background: $yellow;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 @media (min-width: 668px) {
   h1 {
     font-size: 80px;
@@ -477,6 +521,10 @@ footer {
   }
 
   .main-wrapper {
+    padding: 20px 40px;
+  }
+
+  .credit-main-wrapper {
     padding: 20px 40px;
   }
 
@@ -505,6 +553,11 @@ footer {
   .main-wrapper {
     padding: 20px 250px;
   }
+
+  .credit-main-wrapper {
+    padding: 20px 250px;
+  }
+
   .about-me-p {
     font-size: 20px;
     width: 50%;

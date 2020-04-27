@@ -6,7 +6,7 @@ import quiz from "../images/projects/redux-quiz.png";
 import dogquiz from "../images/projects/quiz.png";
 import todo from "../images/projects/todo.png";
 import { ReactNative } from "components/ReactNative";
-import { GithubTiny } from "./GithubTiny";
+import { Github } from "./Github";
 
 export const Projects = () => {
   return (
@@ -32,7 +32,9 @@ export const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+            <h4 className="github-link">
+              GITHUB REPO {<Github size={"15pt"} />}
+            </h4>
           </a>
           <p>
             <span>APP.</span> Todo app built with React & Redux{" "}
@@ -64,7 +66,9 @@ export const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+            <h4 className="github-link">
+              GITHUB REPO {<Github size={"15pt"} />}
+            </h4>
           </a>
           <p>
             <span>SITE.</span> Multi page website built with React, using API to
@@ -98,7 +102,9 @@ export const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+            <h4 className="github-link">
+              GITHUB REPO {<Github size={"15pt"} />}
+            </h4>
           </a>
           <p>
             <span>SITE.</span> Music site built with React, using API to fetch
@@ -133,7 +139,9 @@ export const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+            <h4 className="github-link">
+              GITHUB REPO {<Github size={"15pt"} />}
+            </h4>
           </a>
           <p>
             <span>APP.</span> Site to read, like and post short messages. Posts
@@ -167,7 +175,9 @@ export const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+            <h4 className="github-link">
+              GITHUB REPO {<Github size={"15pt"} />}
+            </h4>
           </a>
           <p>
             <span>APP.</span> Food quiz created with React and Redux - group
@@ -199,7 +209,9 @@ export const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+            <h4 className="github-link">
+              GITHUB REPO {<Github size={"15pt"} />}
+            </h4>
           </a>
           <p>
             <span>APP.</span> Dog quiz created with React components project{" "}

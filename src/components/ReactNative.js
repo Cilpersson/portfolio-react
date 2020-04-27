@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { GithubTiny } from "./GithubTiny";
+import { Github } from "./Github";
 
 export const ReactNative = () => {
   const [load, setLoad] = useState(false);
@@ -30,7 +30,9 @@ export const ReactNative = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h4 className="github-link">GITHUB REPO {<GithubTiny />}</h4>
+            <h4 className="github-link">
+              GITHUB REPO {<Github size={"15pt"} />}
+            </h4>
           </a>
           <p>
             <span>APP.</span> Mobile app built with React Native, using API to

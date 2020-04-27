@@ -80,6 +80,58 @@ a {
   width: fit-content;
 }
 
+.credit {
+  color: #000;
+  font-size: 28px;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.credit-single {
+  color: #000;
+  font-size: 28px;
+  margin: 50px 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.credit-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  margin: auto;
+  min-height: 90vh;
+  max-width: 375px;
+  background: #fff;
+}
+
+.credit-a {
+  color: #000;
+  background: #fbd444;
+  margin-left: 5px;
+  max-width: 110px;
+  font-weight: 700;
+}
+
+.credit-wrapper-lottie {
+  display: flex;
+  flex-direction: column-reverse;
+  align-self: flex-end;
+  margin: 50px 0;
+}
+
+.credit-wrapper-icons {
+  margin: 50px 0;
+}
+
+.credit-wrapper-social-media {
+  display: flex;
+  flex-direction: column;
+  background: #fbd444;
+}
+
 span {
   font-family: "Roboto";
   font-weight: bold;
@@ -422,14 +474,6 @@ li {
   align-self: center;
 }
 
-footer {
-  height: 64px;
-  background: #fbd444;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 @media (min-width: 668px) {
   h1 {
     font-size: 80px;
@@ -443,6 +487,9 @@ footer {
     background-image: url("../images/header/header.jpg");
   }
   .main-wrapper {
+    padding: 20px 40px;
+  }
+  .credit-main-wrapper {
     padding: 20px 40px;
   }
   .all-tech-containers {
@@ -465,6 +512,9 @@ footer {
     font-size: 14vw;
   }
   .main-wrapper {
+    padding: 20px 250px;
+  }
+  .credit-main-wrapper {
     padding: 20px 250px;
   }
   .about-me-p {

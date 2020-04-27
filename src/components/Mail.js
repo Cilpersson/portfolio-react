@@ -1,13 +1,13 @@
 import React from "react";
 
-export const Mail = () => {
+export const Mail = ({ size, style }) => {
   return (
     <svg
-      style={{ border: "3px solid black", padding: "5px" }}
+      style={style}
       viewBox="0 0 128 128"
       fill="#000"
-      height="50pt"
-      width="50pt"
+      height={size}
+      width={size}
     >
       <path
         fill="#000"

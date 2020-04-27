@@ -6,6 +6,7 @@ import { Welcome } from "./Welcome";
 import { Tech } from "./Tech";
 import { Projects } from "./Projects";
 import { Thoughts } from "./Thoughts";
+import { Cred } from "./Cred";
 import { Footer } from "./Footer";
 import { ComponentNotFound } from "components/ComponentNotFound";
 
@@ -26,6 +27,9 @@ export const Home = () => {
         </Route>
         <Route path="/thoughts" exact>
           <Thoughts />
+        </Route>
+        <Route path="/cred" exact>
+          <Cred />
         </Route>
         <Route path="*">
           <ComponentNotFound />

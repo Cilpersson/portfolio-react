@@ -5,6 +5,10 @@ import { Mail } from "./Mail";
 import { CodeSnippet } from "./CodeSnippet";
 
 export const Welcome = () => {
+  const styling = {
+    border: "3px solid black",
+    padding: "5px",
+  };
   return (
     <section id="welcome" className="main-wrapper">
       <div className="testing"></div>
@@ -21,21 +25,21 @@ export const Welcome = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Mail />
+          <Mail size={"50pt"} style={styling} />
         </a>
         <a
           href="https://www.linkedin.com/in/christina-persson-b3231ba2/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Linkedin />
+          <Linkedin size={"50pt"} style={styling} />
         </a>
         <a
           href="https://github.com/Cilpersson"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Github />
+          <Github size={"50pt"} style={styling} />
         </a>
       </div>
     </section>
