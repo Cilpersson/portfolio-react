@@ -28,7 +28,7 @@ export const Home = () => {
         <Route path="/thoughts" exact>
           <Thoughts />
         </Route>
-        <Route path="/cred" exact>
+        <Route path="/credit" exact>
           <Cred />
         </Route>
         <Route path="*">

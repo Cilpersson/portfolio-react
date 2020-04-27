@@ -10,8 +10,7 @@ export const Cred = () => {
   return (
     <section id="cred" className="credit-main-wrapper">
       <div className="testing"></div>
-      <h3>CRED</h3>
-
+      <h3>CREDIT</h3>
       <div className="credit-wrapper-icons">
         <p className="credit">
           Icons by:

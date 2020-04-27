@@ -17,8 +17,8 @@ export const Nav = () => {
         <NavLink smooth="true" to="/thoughts#thoughts">
           <li>THOUGHTS</li>
         </NavLink>
-        <NavLink smooth="true" to="/cred#cred">
-          <li>CRED</li>
+        <NavLink smooth="true" to="/credit#credit">
+          <li>CREDIT</li>
         </NavLink>
       </ul>
     </nav>
