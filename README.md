@@ -1,3 +1,3 @@
 # Portfolio built in react
 
-https://christinapersson-react.netlify.app/
+https://www.christinapersson.se/
