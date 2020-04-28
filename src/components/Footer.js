@@ -17,9 +17,27 @@ export const Footer = () => {
         <B>too</B>.
       </Text>
       <Wrapper>
-        <Mail size={"10pt"} style={styling} />
-        <Linkedin size={"10pt"} style={styling} />
-        <Github size={"10pt"} style={styling} />
+        <a
+          href="mailto:hello@christinapersson.se?subject=Let's do cool stuff together!"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Mail size={"10pt"} style={styling} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/christina-persson-b3231ba2/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Linkedin size={"10pt"} style={styling} />
+        </a>
+        <a
+          href="https://github.com/Cilpersson"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Github size={"10pt"} style={styling} />
+        </a>
       </Wrapper>
     </FooterWrapper>
   );
