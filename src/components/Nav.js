@@ -8,11 +8,11 @@ export const Nav = () => {
         <h2 className="nav-title">$ whoami</h2>
       </NavLink>
       <ul>
-        <NavLink smooth="true" to="/tech#tech">
-          <li>TECH</li>
-        </NavLink>
         <NavLink smooth="true" to="/projects#projects">
           <li>PROJECTS</li>
+        </NavLink>
+        <NavLink smooth="true" to="/tech#tech">
+          <li>TECH</li>
         </NavLink>
         <NavLink smooth="true" to="/thoughts#thoughts">
           <li>THOUGHTS</li>

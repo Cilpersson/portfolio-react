@@ -3,8 +3,9 @@ import techimage from "images/techimage.jpg";
 
 export const Tech = () => {
   return (
-    <section id="tech" className="main-wrapper">
-      <div className="testing"></div>
+    <section className="main-wrapper">
+      <div id="tech" />
+      <div className="testing" />
       <h3>TECH</h3>
       <section className="all-tech-containers">
         <div className="tech-container">

@@ -2,14 +2,11 @@ import React from "react";
 import Lottie from "lottie-react-web";
 import animation from "animations/404-space-error.json";
 
-import { Github } from "./Github";
-import { Linkedin } from "./Linkedin";
-import { Mail } from "./Mail";
-
 export const Cred = () => {
   return (
-    <section id="cred" className="credit-main-wrapper">
-      <div className="testing"></div>
+    <section className="credit-main-wrapper">
+      <div id="cred" />
+      <div className="testing" />
       <h3>CREDIT</h3>
       <div className="credit-wrapper-icons">
         <p className="credit">
@@ -18,6 +15,8 @@ export const Cred = () => {
             className="credit-a"
             href="https://www.flaticon.com/authors/dave-gandy"
             title="Dave Gandy"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Dave Gandy
           </a>
@@ -26,6 +25,8 @@ export const Cred = () => {
       <p className="credit-single">
         Images by:
         <a
+          target="_blank"
+          rel="noopener noreferrer"
           className="credit-a"
           href="https://unsplash.com/@georgie_cobbs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         >
@@ -42,7 +43,12 @@ export const Cred = () => {
         />
         <p className="credit">
           Animation by:
-          <a className="credit-a" href="https://lottiefiles.com/kastnerskasten">
+          <a
+            className="credit-a"
+            href="https://lottiefiles.com/kastnerskasten"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Felix Kastner
           </a>
         </p>

@@ -4,8 +4,9 @@ import thoughtThree from "images/thoughts/thoughts3.jpg";
 
 export const Thoughts = () => {
   return (
-    <section id="thoughts" className="main-wrapper">
-      <div className="testing"></div>
+    <section className="main-wrapper">
+      <div id="thoughts" />
+      <div className="testing" />
       <h3>THOUGHTS</h3>
 
       <div className="thoughts-container">

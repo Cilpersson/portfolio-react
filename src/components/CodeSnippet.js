@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import profile from "images/profilepicture/profilepicture.jpeg";
 
 export const CodeSnippet = () => {
   return (
@@ -36,15 +37,13 @@ export const CodeSnippet = () => {
         <br />
         description: <Dif fontColor="#8ed6df">"</Dif>
         <Dif fontColor="#aae478">
-          I enjoy taking care of my plants and bouldering. Bouldering matches my
-          passion for programming because they both focus on solving problems.
-          Getting from point A to point B as effectively and graciously as
-          possible is just as fun for me if I’m climbing or coding. My fingers
-          are the common denominator that makes both things a lot easier to
-          perform.<Dif fontColor="#8ed6df">"</Dif>
+          I don’t give up. No matter how tough the obstacle is. My second
+          greatest asset is that my ’not giving up’ persona spreads to others as
+          well!<Dif fontColor="#8ed6df">"</Dif>
         </Dif>
         <br />
         <Dif fontColor="#ffdf37">{"}"}</Dif>
+        <br />
       </TextArea>
     </Terminal>
   );
@@ -99,3 +98,11 @@ const TextArea = styled.div`
     padding: 30px 35px;
   }
 `;
+/*
+I enjoy taking care of my plants and bouldering. Bouldering matches my
+          passion for programming because they both focus on solving problems.
+          Getting from point A to point B as effectively and graciously as
+          possible is just as fun for me if I’m climbing or coding. My fingers
+          are the common denominator that makes both things a lot easier to
+          perform.
+*/

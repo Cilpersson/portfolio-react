@@ -10,8 +10,9 @@ export const Welcome = () => {
     padding: "5px",
   };
   return (
-    <section id="welcome" className="main-wrapper">
-      <div className="testing"></div>
+    <section className="main-wrapper">
+      <div id="welcome" />
+      <div className="testing" />
       <h3>ABOUT ME</h3>
       <span className="emoji" role="img" aria-label="Waving hand">
         👋

@@ -78,9 +78,9 @@ export const Projects = () => {
           <div className="tag-container">
             <h4>react</h4>
             <h4>JSX</h4>
-            <h4>git</h4>
             <h4>CSS 3</h4>
             <h4>API</h4>
+            <h4>git</h4>
           </div>
         </div>
 
@@ -114,11 +114,11 @@ export const Projects = () => {
           <div className="tag-container">
             <h4>react</h4>
             <h4>JSX</h4>
-            <h4>git</h4>
             <h4>HTML 5</h4>
             <h4>CSS 3</h4>
             <h4>JavaScript ES6</h4>
             <h4>API</h4>
+            <h4>git</h4>
           </div>
         </div>
 
@@ -151,11 +151,11 @@ export const Projects = () => {
           <div className="tag-container">
             <h4>react</h4>
             <h4>JSX</h4>
-            <h4>git</h4>
             <h4>HTML 5</h4>
             <h4>CSS 3</h4>
             <h4>API</h4>
             <h4>SASS</h4>
+            <h4>git</h4>
           </div>
         </div>
         <div className="project-card">
@@ -219,7 +219,6 @@ export const Projects = () => {
           </p>
           <div className="tag-container">
             <h4>react</h4>
-            <h4>redux</h4>
             <h4>JSX</h4>
             <h4>styled-components</h4>
             <h4>git</h4>
