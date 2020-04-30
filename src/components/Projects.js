@@ -2,7 +2,7 @@ import React from "react";
 import directors from "../images/projects/movies.png";
 import music from "../images/projects/music.png";
 import thoughts from "../images/projects/happythoughts.png";
-import quiz from "../images/projects/redux-quiz.png";
+import barcode from "../images/projects/barcode.png";
 import dogquiz from "../images/projects/quiz.png";
 import todo from "../images/projects/todo.png";
 import { ReactNative } from "components/ReactNative";
@@ -114,10 +114,9 @@ export const Projects = () => {
           <div className="tag-container">
             <h4>react</h4>
             <h4>JSX</h4>
-            <h4>HTML 5</h4>
             <h4>CSS 3</h4>
-            <h4>JavaScript ES6</h4>
             <h4>API</h4>
+            <h4>pair-programming</h4>
             <h4>git</h4>
           </div>
         </div>
@@ -160,18 +159,18 @@ export const Projects = () => {
         </div>
         <div className="project-card">
           <a
-            href="https://food-quiz.netlify.app/"
+            href="https://palm-oil-free.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div className="project-view">
-              <img src={quiz} alt="Food quiz frontpage" />
+              <img src={barcode} alt="Palm oil free frontpage" />
               <div className="layer"></div>
-              <h2 className="project-title">FOOD QUIZ</h2>
+              <h2 className="project-title">BARCODE SCANNER</h2>
             </div>
           </a>
           <a
-            href="https://github.com/Cilpersson/project-redux-quiz-hippos"
+            href="https://github.com/Cilpersson/project-nutrition"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -180,8 +179,9 @@ export const Projects = () => {
             </h4>
           </a>
           <p>
-            <span>APP.</span> Food quiz created with React and Redux - group
-            project{" "}
+            <span>APP.</span> Site that uses the devices camera to scan the
+            barcode. Provides information from a food API - Pair programmin
+            porject{" "}
             <span style={{ textDecoration: "underline" }}>&gt;&gt;</span>
           </p>
           <div className="tag-container">
@@ -189,6 +189,8 @@ export const Projects = () => {
             <h4>redux</h4>
             <h4>JSX</h4>
             <h4>styled-components</h4>
+            <h4>API</h4>
+            <h4>pair-programming</h4>
             <h4>git</h4>
           </div>
         </div>
@@ -220,7 +222,7 @@ export const Projects = () => {
           <div className="tag-container">
             <h4>react</h4>
             <h4>JSX</h4>
-            <h4>styled-components</h4>
+            <h4>CSS 3</h4>
             <h4>git</h4>
           </div>
         </div>

@@ -3,48 +3,61 @@ import styled from "styled-components";
 
 export const CodeSnippet = () => {
   return (
-    <Terminal>
-      <Top>
-        <Dot bckgrdColor="#ff6262"></Dot>
-        <Dot bckgrdColor="#ffee62"></Dot>
-        <Dot bckgrdColor="#4eb953"></Dot>
-      </Top>
-      <TextArea>
-        <Dif fontColor="#d9a1f0">const</Dif> <Dif fontColor="#fa6363">info</Dif>{" "}
-        <Dif fontColor="#d9a1f0">=</Dif> <Dif fontColor="#ffdf37">{"{"}</Dif>
-        <br />
-        name: <Dif fontColor="#8ed6df">"</Dif>
-        <Dif fontColor="#aae478">Christina Persson</Dif>
-        <Dif fontColor="#8ed6df">"</Dif>
-        <Dif fontColor="#8ed6df">,</Dif>
-        <br />
-        age: <Dif fontColor="orange">NaN</Dif>
-        <Dif fontColor="#8ed6df">,</Dif>
-        <br />
-        dreamJob: <Dif fontColor="#8ed6df">"</Dif>
-        <Dif fontColor="#aae478">
-          developing software for cars{" "}
-          <span role="img" aria-label="Car driving">
-            🚙💨
-          </span>
-        </Dif>
-        <Dif fontColor="#8ed6df">"</Dif>
-        <Dif fontColor="#8ed6df">,</Dif>
-        <br />
-        dogLover: <Dif fontColor="orange">true</Dif>
-        <Dif fontColor="#8ed6df">,</Dif>
-        <br />
-        description: <Dif fontColor="#8ed6df">"</Dif>
-        <Dif fontColor="#aae478">
-          I don’t give up. No matter how tough the obstacle is. My second
-          greatest asset is that my ’not giving up’ persona spreads to others as
-          well!<Dif fontColor="#8ed6df">"</Dif>
-        </Dif>
-        <br />
-        <Dif fontColor="#ffdf37">{"}"}</Dif>
-        <br />
-      </TextArea>
-    </Terminal>
+    <>
+      <Terminal>
+        <Top>
+          <Dot bckgrdColor="#ff6262" />
+          <Dot bckgrdColor="#ffee62" />
+          <Dot bckgrdColor="#4eb953" />
+        </Top>
+        <TextArea>
+          <Dif fontColor="#d9a1f0">const</Dif>{" "}
+          <Dif fontColor="#fa6363">info</Dif> <Dif fontColor="#d9a1f0">=</Dif>{" "}
+          <Dif fontColor="#ffdf37">{"{"}</Dif>
+          <br />
+          name: <Dif fontColor="#8ed6df">"</Dif>
+          <Dif fontColor="#aae478">Christina Persson</Dif>
+          <Dif fontColor="#8ed6df">"</Dif>
+          <Dif fontColor="#8ed6df">,</Dif>
+          <br />
+          age: <Dif fontColor="orange">NaN</Dif>
+          <Dif fontColor="#8ed6df">,</Dif>
+          <br />
+          dreamJob: <Dif fontColor="#8ed6df">"</Dif>
+          <Dif fontColor="#aae478">
+            developing software for cars{" "}
+            <span role="img" aria-label="Car driving">
+              🚙💨
+            </span>
+          </Dif>
+          <Dif fontColor="#8ed6df">"</Dif>
+          <Dif fontColor="#8ed6df">,</Dif>
+          <br />
+          dogLover: <Dif fontColor="orange">true</Dif>
+          <Dif fontColor="#8ed6df">,</Dif>
+          <br />
+          description: <Dif fontColor="#8ed6df">"</Dif>
+          <Dif fontColor="#aae478">
+            I don’t give up. No matter how tough the obstacle is. My second
+            greatest asset is that my ’not giving up’ persona spreads to others
+            as well!<Dif fontColor="#8ed6df">"</Dif>
+          </Dif>
+          <br />
+          <Dif fontColor="#ffdf37">{"}"}</Dif>
+          <br />
+        </TextArea>
+      </Terminal>
+      <TerminalText>
+        Code for the terminal{" "}
+        <Anchor
+          href="https://codesandbox.io/s/codesnippets-for-react-h0jlq"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          avilable here
+        </Anchor>
+      </TerminalText>
+    </>
   );
 };
 
@@ -63,6 +76,22 @@ const Terminal = styled.section`
   box-shadow: 0px 0px 10px 1px #808080;
 
   background: #1c2024;
+`;
+
+const TerminalText = styled.p`
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 5px;
+  color: #8d8d8d;
+`;
+
+const Anchor = styled.a`
+  color: #8d8d8d;
+  transition: 0.3s;
+
+  &:hover {
+    color: #1c2024;
+  }
 `;
 
 const Top = styled.div`
