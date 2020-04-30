@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import profile from "images/profilepicture/profilepicture.jpeg";
 
 export const CodeSnippet = () => {
   return (

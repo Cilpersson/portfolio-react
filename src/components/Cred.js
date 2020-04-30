@@ -56,11 +56,3 @@ export const Cred = () => {
     </section>
   );
 };
-
-/*
- <div className="credit-wrapper-social-media">
-          <Github size={"15pt"} style={styling} />
-          <Linkedin size={"15pt"} style={styling} />
-          <Mail size={"15pt"} style={styling} />
-        </div>
-*/
