@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { Linkedin } from "./Linkedin";
-import { Github } from "./Github";
-import { Mail } from "./Mail";
+import { Linkedin } from "./icons_and_buttons/Linkedin";
+import { Github } from "./icons_and_buttons/Github";
+import { Mail } from "./icons_and_buttons/Mail";
 
 export const Footer = () => {
   const styling = {

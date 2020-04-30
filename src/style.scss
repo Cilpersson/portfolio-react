@@ -563,10 +563,6 @@ li {
     width: 50%;
   }
 
-  .testing {
-    display: 62px;
-  }
-
   .code-button {
     display: block;
   }
@@ -593,63 +589,5 @@ li {
 
   100% {
     bottom: 0px;
-  }
-}
-
-@keyframes changewords {
-  0% {
-    content: "W";
-    opacity: 1;
-  }
-  7% {
-    content: "We";
-    opacity: 1;
-  }
-  14% {
-    content: "Web";
-    opacity: 1;
-  }
-  21% {
-    content: "Web ";
-    opacity: 1;
-  }
-  28% {
-    content: "Web  D";
-    opacity: 1;
-  }
-  35% {
-    content: "Web  De";
-    opacity: 1;
-  }
-  42% {
-    content: "Web  Dev";
-    opacity: 1;
-  }
-  49% {
-    content: "Web  Deve";
-    opacity: 1;
-  }
-  56% {
-    content: "Web  Devel";
-    opacity: 1;
-  }
-  63% {
-    content: "Web  Develo";
-    opacity: 1;
-  }
-  70% {
-    content: "Web  Develop";
-    opacity: 1;
-  }
-  77% {
-    content: "Web  Develope";
-    opacity: 1;
-  }
-  84% {
-    content: "Web  Developer";
-    opacity: 1;
-  }
-  100% {
-    content: "Web  Developer";
   }
 }

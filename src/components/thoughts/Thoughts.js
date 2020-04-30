@@ -4,11 +4,9 @@ import thoughtThree from "images/thoughts/thoughts3.jpg";
 
 export const Thoughts = () => {
   return (
-    <section className="main-wrapper">
-      <div id="thoughts" />
+    <section id="thoughts" className="main-wrapper">
       <div className="testing" />
       <h3>THOUGHTS</h3>
-
       <div className="thoughts-container">
         <a
           href="https://webdeveloperinthemaking.netlify.com/#sprint-three"

@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { Header } from "./Header";
 import { Nav } from "./Nav";
-import { Welcome } from "./Welcome";
-import { Tech } from "./Tech";
-import { Projects } from "./Projects";
-import { Thoughts } from "./Thoughts";
-import { Cred } from "./Cred";
+import { Welcome } from "./welcome/Welcome";
+import { Tech } from "./tech/Tech";
+import { Projects } from "./projects/Projects";
+import { Thoughts } from "./thoughts/Thoughts";
+import { Cred } from "./cred/Cred";
 import { Footer } from "./Footer";
 import { ComponentNotFound } from "components/ComponentNotFound";
 

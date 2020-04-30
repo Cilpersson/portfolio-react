@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Github } from "./Github";
+import { Github } from "../icons_and_buttons/Github";
 
 export const ReactNative = () => {
   const [load, setLoad] = useState(false);
@@ -13,7 +13,6 @@ export const ReactNative = () => {
           <iframe
             title="React native code"
             src="https://snack.expo.io/@cilpersson/react-native---first-project?platform=ios"
-            // src={`https://appetize.io/embed/8bnmakzrptf1hv9dq7v7bnteem?autoplay=false&debug=true&device=iphone6s&deviceColor=black&embed=true&orientation=portrait&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXKernelLaunchUrlDefaultsKey%22:%22exp:%2F%2Fexpo.io%2F@cilpersson%2Freact-native---first-project%2BKtk9Dy3E3%22,%22EXKernelDisableNuxDefaultsKey%22:true%7D&scale=75&osVersion=13.3`}
             style={{
               overflow: "hidden",
               background: "#fafafa",

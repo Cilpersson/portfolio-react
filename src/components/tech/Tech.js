@@ -3,8 +3,7 @@ import techimage from "images/techimage.jpg";
 
 export const Tech = () => {
   return (
-    <section className="main-wrapper">
-      <div id="tech" />
+    <section id="tech" className="main-wrapper">
       <div className="testing" />
       <h3>TECH</h3>
       <section className="all-tech-containers">

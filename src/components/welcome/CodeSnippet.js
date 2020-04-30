@@ -99,6 +99,7 @@ const Top = styled.div`
 
   border-radius: 6px 6px 0 0;
   padding: 0 5px;
+  margin-bottom: 10px;
   background: #d6d1cd;
 
   display: flex;
@@ -126,11 +127,3 @@ const TextArea = styled.div`
     padding: 30px 35px;
   }
 `;
-/*
-I enjoy taking care of my plants and bouldering. Bouldering matches my
-          passion for programming because they both focus on solving problems.
-          Getting from point A to point B as effectively and graciously as
-          possible is just as fun for me if I’m climbing or coding. My fingers
-          are the common denominator that makes both things a lot easier to
-          perform.
-*/
