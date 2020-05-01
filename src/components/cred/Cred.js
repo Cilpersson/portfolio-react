@@ -1,17 +1,17 @@
 import React from "react";
+import styled from "styled-components";
 import Lottie from "lottie-react-web";
 import animation from "animations/404-space-error.json";
 
 export const Cred = () => {
   return (
-    <section className="credit-main-wrapper">
-      <div id="cred" />
-      <div className="testing" />
-      <h3>CREDIT</h3>
-      <div className="credit-wrapper-icons">
-        <p className="credit">
+    <CreditMainWrapper id="cred">
+      <Space></Space>
+      <Title>CREDIT</Title>
+      <CreditWrapperIcons>
+        <Credit>
           Icons by:
-          <a
+          <A
             className="credit-a"
             href="https://www.flaticon.com/authors/dave-gandy"
             title="Dave Gandy"
@@ -19,21 +19,21 @@ export const Cred = () => {
             rel="noopener noreferrer"
           >
             Dave Gandy
-          </a>
-        </p>
-      </div>
-      <p className="credit-single">
+          </A>
+        </Credit>
+      </CreditWrapperIcons>
+      <CreditSingle>
         Images by:
-        <a
+        <A
           target="_blank"
           rel="noopener noreferrer"
           className="credit-a"
           href="https://unsplash.com/@georgie_cobbs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         >
           Georgie Cobbs
-        </a>
-      </p>
-      <div className="credit-wrapper-lottie">
+        </A>
+      </CreditSingle>
+      <CreditWrapperLottie>
         <Lottie
           options={{
             animationData: animation,
@@ -41,18 +41,82 @@ export const Cred = () => {
           width="250px"
           height="250px"
         />
-        <p className="credit">
+        <Credit>
           Animation by:
-          <a
+          <A
             className="credit-a"
             href="https://lottiefiles.com/kastnerskasten"
             target="_blank"
             rel="noopener noreferrer"
           >
             Felix Kastner
-          </a>
-        </p>
-      </div>
-    </section>
+          </A>
+        </Credit>
+      </CreditWrapperLottie>
+    </CreditMainWrapper>
   );
 };
+const CreditMainWrapper = styled.section`
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  margin: auto;
+  min-height: 90vh;
+  max-width: 375px;
+  background: #fff;
+`;
+
+const Space = styled.div`
+  height: 82px;
+`;
+
+const Title = styled.h3`
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  letter-spacing: 1px;
+
+  width: fit-content;
+
+  margin: 0 auto 20px;
+  padding: 2px 6px;
+
+  color: #000;
+  background: #fbd444;
+`;
+
+const CreditWrapperIcons = styled.div`
+  margin: 50px 0;
+`;
+
+const Credit = styled.p`
+  color: #000;
+  font-size: 28px;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+`;
+
+const A = styled.a`
+  color: #000;
+  background: $yellow;
+  margin-left: 5px;
+  max-width: 110px;
+  font-weight: 700;
+`;
+
+const CreditSingle = styled.p`
+  color: $black;
+  font-size: 28px;
+  margin: 50px 0;
+  display: flex;
+  align-items: flex-end;
+`;
+
+const CreditWrapperLottie = styled.div`
+  display: flex;
+  flex-direction: column-reverse;
+  align-self: flex-end;
+  margin: 50px 0;
+`;

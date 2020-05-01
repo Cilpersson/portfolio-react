@@ -51,6 +51,7 @@ const FooterWrapper = styled.footer`
   background: #fbd444;
 
   padding: 10px 0;
+  margin-top: 15px;
 `;
 
 const Text = styled.div`

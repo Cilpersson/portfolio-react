@@ -12,11 +12,9 @@ export const Welcome = () => {
   };
 
   return (
-    <MainWrapper>
-      <div id="welcome" />
+    <MainWrapper id="welcome">
       <Space></Space>
       <Title>ABOUT ME</Title>
-
       <Emoji ariaLabel="Waving hand">👋</Emoji>
       <AboutMe className="about-me">
         <CodeSnippet />
@@ -52,7 +50,7 @@ const MainWrapper = styled.section`
   flex-direction: column;
   justify-content: space-between;
   padding: 0 10px;
-  min-height: 90vh;
+  min-height: 88vh;
 
   background: #fff;
 
@@ -120,7 +118,7 @@ const SocialMediaWrapper = styled.div`
   background: #fbd444;
   height: 100px;
   width: 280px;
-  margin: 10px auto;
+  margin: auto;
 `;
 
 const A = styled.a`

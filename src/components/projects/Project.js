@@ -7,6 +7,7 @@ export const Project = ({
   netlifyURL,
   githubURL,
   imgSrc,
+  imgAlt,
   title,
   subTitle,
   description,
@@ -16,7 +17,7 @@ export const Project = ({
     <ProjectCard>
       <A href={netlifyURL} target="_blank" rel="noopener noreferrer">
         <ProjectView>
-          <Img src={imgSrc} alt="Movie site frontpage" />
+          <Img src={imgSrc} alt={imgAlt} />
           <Layer></Layer>
           <Title className="project-title">{title}</Title>
         </ProjectView>
@@ -87,7 +88,7 @@ const GithubLink = styled.h4`
 
 const Layer = styled.div`
   background: #000;
-  opacity: 0.6;
+  opacity: 0.7;
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 1;
@@ -108,6 +109,13 @@ const Title = styled.h2`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (min-width: 668px) {
+    font-size: 40px;
+  }
+  @media (min-width: 1024px) {
+    font-size: 55px;
+  }
 `;
 
 const ProjectView = styled.div`
