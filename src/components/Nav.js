@@ -8,16 +8,16 @@ export const Nav = () => {
         <h2 className="nav-title">$ whoami</h2>
       </NavLink>
       <ul>
-        <NavLink smooth="true" to="/projects#projects">
+        <NavLink to="/projects#projects">
           <li>PROJECTS</li>
         </NavLink>
-        <NavLink smooth="true" to="/tech#tech">
+        <NavLink to="/tech#tech">
           <li>TECH</li>
         </NavLink>
-        <NavLink smooth="true" to="/thoughts#thoughts">
+        <NavLink to="/thoughts#thoughts">
           <li>THOUGHTS</li>
         </NavLink>
-        <NavLink smooth="true" to="/credit#credit">
+        <NavLink to="/credit#credit">
           <li>CREDIT</li>
         </NavLink>
       </ul>

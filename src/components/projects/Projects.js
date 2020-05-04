@@ -35,6 +35,16 @@ export const Projects = () => {
       <Title>FEATURED PROJECTS</Title>
       <CardGrid>
         <Project
+          netlifyURL="http://christinapersson.se/"
+          githubURL="https://github.com/Cilpersson/portfolio-react"
+          imgSrc={portfolio}
+          imgAlt="Portfolio frontpage"
+          title="PORTFOLIO"
+          subTitle="SITE."
+          description=" Portfolio built in react using styled-components "
+          listOfTags={portfolioList}
+        />
+        <Project
           netlifyURL="https://food-quiz.netlify.app/"
           githubURL="https://github.com/Cilpersson/project-redux-quiz-hippos"
           imgSrc={reduxquiz}
@@ -45,16 +55,7 @@ export const Projects = () => {
           project"
           listOfTags={reduxquizList}
         />
-        <Project
-          netlifyURL="http://christinapersson.se/"
-          githubURL="https://github.com/Cilpersson/portfolio-react"
-          imgSrc={portfolio}
-          imgAlt="Portfolio frontpage"
-          title="PORTFOLIO"
-          subTitle="SITE."
-          description=" Portfolio built in react using styled-components "
-          listOfTags={portfolioList}
-        />
+
         <Project
           netlifyURL="https://perssons-todo.netlify.app/"
           githubURL="https://github.com/Cilpersson/project-todos"
