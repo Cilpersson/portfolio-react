@@ -10,6 +10,7 @@ import dogquiz from "../../images/projects/quiz.png";
 import todo from "../../images/projects/todo.png";
 import reduxquiz from "../../images/projects/redux-quiz.png";
 import portfolio from "../../images/projects/portfolio.png";
+import astronauts from "../../images/projects/astronauts.png";
 
 export const Projects = () => {
   const todoList = ["react", "redux", "JSX", "styled-components", "git"];
@@ -19,6 +20,14 @@ export const Projects = () => {
   const thoughtsList = ["react", "JSX", "SASS", "API", "git"];
   const dogquizList = ["react", "JSX", "CSS 3", "git"];
   const portfolioList = ["react", "JSX", "styled-components", "git"];
+  const astronautsList = [
+    "react",
+    "redux",
+    "JSX",
+    "styled-components",
+    "API",
+    "git",
+  ];
   const barcodeList = [
     "react",
     "redux",
@@ -41,30 +50,18 @@ export const Projects = () => {
           imgAlt="Portfolio frontpage"
           title="PORTFOLIO"
           subTitle="SITE."
-          description=" Portfolio built in react using styled-components "
+          description=" My portfolio built in react using styled-components "
           listOfTags={portfolioList}
         />
         <Project
-          netlifyURL="https://food-quiz.netlify.app/"
-          githubURL="https://github.com/Cilpersson/project-redux-quiz-hippos"
-          imgSrc={reduxquiz}
-          imgAlt="Food quiz frontpage"
-          title="FOOD QUIZ APP"
-          subTitle="APP."
-          description=" Food quiz built with React & Redux - Mob programming
-          project"
-          listOfTags={reduxquizList}
-        />
-
-        <Project
-          netlifyURL="https://perssons-todo.netlify.app/"
-          githubURL="https://github.com/Cilpersson/project-todos"
-          imgSrc={todo}
-          imgAlt="Todo app frontpage"
-          title="TODO APP"
-          subTitle="APP."
-          description=" Todo app built with React & Redux "
-          listOfTags={todoList}
+          netlifyURL="https://people-in-space-right-now.netlify.app/"
+          githubURL="https://github.com/Cilpersson/people-in-space"
+          imgSrc={astronauts}
+          imgAlt="People in space frontpage"
+          title="ASTRO FACTS"
+          subTitle="SITE."
+          description=" Little side project showing how many people that are in space right now "
+          listOfTags={astronautsList}
         />
         <Project
           netlifyURL="https://pretty-decent-directors.netlify.com/"
@@ -87,6 +84,28 @@ export const Projects = () => {
           data - Pair programming
           project "
           listOfTags={musicList}
+        />
+        <Project
+          netlifyURL="https://food-quiz.netlify.app/"
+          githubURL="https://github.com/Cilpersson/project-redux-quiz-hippos"
+          imgSrc={reduxquiz}
+          imgAlt="Food quiz frontpage"
+          title="FOOD QUIZ APP"
+          subTitle="APP."
+          description=" Food quiz built with React & Redux - Mob programming
+          project"
+          listOfTags={reduxquizList}
+        />
+
+        <Project
+          netlifyURL="https://perssons-todo.netlify.app/"
+          githubURL="https://github.com/Cilpersson/project-todos"
+          imgSrc={todo}
+          imgAlt="Todo app frontpage"
+          title="TODO APP"
+          subTitle="APP."
+          description=" Todo app built with React & Redux "
+          listOfTags={todoList}
         />
 
         <Project
