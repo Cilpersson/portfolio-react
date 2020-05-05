@@ -40,7 +40,7 @@ export const Project = ({
 };
 
 const ProjectCard = styled.div`
-  margin: 5px;
+  margin: 0 5px 5px 5px;
 `;
 
 const A = styled.a`
