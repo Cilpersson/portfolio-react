@@ -20,7 +20,7 @@ export const Tech = () => {
     "HTML",
     "JSX",
     "React",
-    "React Hooks",
+    "React - Functional components w. hooks",
     "React Native",
     "Redux",
     "Java",

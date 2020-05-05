@@ -39,7 +39,9 @@ export const Project = ({
   );
 };
 
-const ProjectCard = styled.div``;
+const ProjectCard = styled.div`
+  margin: 5px;
+`;
 
 const A = styled.a`
   text-decoration: none;
