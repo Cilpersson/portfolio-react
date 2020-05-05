@@ -1,6 +1,7 @@
 import React from "react";
 import Typing from "react-typing-animation";
-import { HashLink as Link } from "react-router-hash-link";
+// import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-scroll";
 import styled, { keyframes } from "styled-components";
 import { DownArrow } from "./icons_and_buttons/DownArrow";
 import mobileBackground from "../images/header/headermobile.jpg";
@@ -14,12 +15,12 @@ export const Header = () => {
           <Span>Web Developer</Span>
           <Typing.Reset count={1} delay={450} />
         </Typing>
+        <Button>
+          <Link smooth={true} to="welcome">
+            <DownArrow />
+          </Link>
+        </Button>
       </Layer>
-      <Button>
-        <Link smooth="true" to="/#welcome">
-          <DownArrow />
-        </Link>
-      </Button>
     </HeaderWrapper>
   );
 };
@@ -66,7 +67,7 @@ const floating = keyframes`
   bottom: 0px;
 }`;
 
-const Button = styled.button`
+const Button = styled.div`
   position: absolute;
   bottom: 0;
   border: none;
