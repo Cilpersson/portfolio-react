@@ -17,27 +17,27 @@ export const Footer = () => {
         <B>too</B>.
       </Text>
       <Wrapper>
-        <a
+        <A
           href="mailto:hello@christinapersson.se?subject=Let's do cool stuff together!"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Mail size={"10pt"} style={styling} />
-        </a>
-        <a
+        </A>
+        <A
           href="https://www.linkedin.com/in/christina-persson-b3231ba2/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Linkedin size={"10pt"} style={styling} />
-        </a>
-        <a
+        </A>
+        <A
           href="https://github.com/Cilpersson"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Github size={"10pt"} style={styling} />
-        </a>
+        </A>
       </Wrapper>
     </FooterWrapper>
   );
@@ -58,7 +58,11 @@ const Text = styled.div`
   display: flex;
   flex-direction: row;
 `;
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  &:hover > *:not(:hover) {
+    opacity: 0.3;
+  }
+`;
 
 const P = styled.p`
   display: inline;
@@ -68,4 +72,11 @@ const P = styled.p`
 const B = styled.p`
   font-weight: bolder;
   margin: 0 0 0 5px;
+`;
+
+const A = styled.a`
+  text-decoration: none;
+  color: #fff;
+  width: fit-content;
+  transition: all 0.2s;
 `;
