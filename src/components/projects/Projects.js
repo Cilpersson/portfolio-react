@@ -53,7 +53,7 @@ export const Projects = () => {
           description=" My portfolio built in react using styled-components "
           listOfTags={portfolioList}
         />
-        <Project
+        {/* <Project
           netlifyURL="https://people-in-space-right-now.netlify.app/"
           githubURL="https://github.com/Cilpersson/people-in-space"
           imgSrc={astronauts}
@@ -62,7 +62,7 @@ export const Projects = () => {
           subTitle="SITE."
           description=" Little side project showing how many people that are in space right now "
           listOfTags={astronautsList}
-        />
+        /> */}
         <Project
           netlifyURL="https://pretty-decent-directors.netlify.com/"
           githubURL="https://github.com/Cilpersson/project-movies"
