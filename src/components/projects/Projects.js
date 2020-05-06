@@ -107,18 +107,6 @@ export const Projects = () => {
           description=" Todo app built with React & Redux "
           listOfTags={todoList}
         />
-        <Project
-          netlifyURL="https://popularonspotify.netlify.com/"
-          githubURL="https://github.com/Cilpersson/project-music-releases"
-          imgSrc={music}
-          imgAlt="Music site frontpage"
-          title="POPULAR MUSIC"
-          subTitle="SITE."
-          description=" Music site built with React, using API to fetch
-          data - Pair programming
-          project "
-          listOfTags={musicList}
-        />
 
         <Project
           netlifyURL="https://people-in-space-right-now.netlify.app/"
@@ -181,9 +169,11 @@ const Title = styled.h3`
 
   color: #000;
   background: #fbd444;
+  text-shadow: 1px 1px #fff, 2px 2px #d6d1cd;
 
   @media (min-width: 1024px) {
     font-size: 50px;
+    text-shadow: 2px 2px #fff, 4px 4px #d6d1cd;
   }
 `;
 
