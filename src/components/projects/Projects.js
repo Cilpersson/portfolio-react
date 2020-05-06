@@ -128,6 +128,18 @@ export const Projects = () => {
           description=" Dog quiz created with React components "
           listOfTags={dogquizList}
         />
+        <Project
+          netlifyURL="https://popularonspotify.netlify.com/"
+          githubURL="https://github.com/Cilpersson/project-music-releases"
+          imgSrc={music}
+          imgAlt="Music site frontpage"
+          title="POPULAR MUSIC"
+          subTitle="SITE."
+          description=" Music site built with React, using API to fetch
+          data - Pair programming
+          project "
+          listOfTags={musicList}
+        />
       </CardGrid>
       {<ReactNative />}
     </MainWrapper>
