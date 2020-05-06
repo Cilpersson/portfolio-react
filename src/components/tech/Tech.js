@@ -104,6 +104,10 @@ const Title = styled.h3`
 
   color: #000;
   background: #fbd444;
+
+  @media (min-width: 1024px) {
+    font-size: 50px;
+  }
 `;
 
 const AllTechContainers = styled.section`

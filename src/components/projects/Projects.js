@@ -53,16 +53,6 @@ export const Projects = () => {
           description=" My portfolio built in react using styled-components "
           listOfTags={portfolioList}
         />
-        {/* <Project
-          netlifyURL="https://people-in-space-right-now.netlify.app/"
-          githubURL="https://github.com/Cilpersson/people-in-space"
-          imgSrc={astronauts}
-          imgAlt="People in space frontpage"
-          title="ASTRO FACTS"
-          subTitle="SITE."
-          description=" Little side project showing how many people that are in space right now "
-          listOfTags={astronautsList}
-        /> */}
         <Project
           netlifyURL="https://pretty-decent-directors.netlify.com/"
           githubURL="https://github.com/Cilpersson/project-movies"
@@ -72,6 +62,50 @@ export const Projects = () => {
           subTitle="SITE."
           description=" Multi page website built with React, using API to fetch data "
           listOfTags={directorsList}
+        />
+
+        <Project
+          netlifyURL="https://food-quiz.netlify.app/"
+          githubURL="https://github.com/Cilpersson/project-redux-quiz-hippos"
+          imgSrc={reduxquiz}
+          imgAlt="Food quiz frontpage"
+          title="FOOD QUIZ APP"
+          subTitle="APP."
+          description=" Food quiz built with React & Redux - Mob programming
+          project"
+          listOfTags={reduxquizList}
+        />
+        <Project
+          netlifyURL="https://perssons-happy-thoughts.netlify.com/"
+          githubURL="https://github.com/Cilpersson/project-happy-thoughts"
+          imgSrc={thoughts}
+          imgAlt="Happy thoughts app frontpage"
+          title="HAPPY THOUGHTS"
+          subTitle="APP."
+          description=" Site to read, like and post short messages. Posts and likes gets posted to an API "
+          listOfTags={thoughtsList}
+        />
+        <Project
+          netlifyURL="https://palm-oil-free.netlify.app/"
+          githubURL="https://github.com/Cilpersson/project-nutrition"
+          imgSrc={barcode}
+          imgAlt="Barcode scanner app frontpage"
+          title="SCANNER"
+          subTitle="APP."
+          description=" Site that uses the devices camera to scan a
+          barcode. Provides information from a food API - Pair programming
+          project "
+          listOfTags={barcodeList}
+        />
+        <Project
+          netlifyURL="https://perssons-todo.netlify.app/"
+          githubURL="https://github.com/Cilpersson/project-todos"
+          imgSrc={todo}
+          imgAlt="Todo app frontpage"
+          title="TODO APP"
+          subTitle="APP."
+          description=" Todo app built with React & Redux "
+          listOfTags={todoList}
         />
         <Project
           netlifyURL="https://popularonspotify.netlify.com/"
@@ -85,53 +119,17 @@ export const Projects = () => {
           project "
           listOfTags={musicList}
         />
-        <Project
-          netlifyURL="https://food-quiz.netlify.app/"
-          githubURL="https://github.com/Cilpersson/project-redux-quiz-hippos"
-          imgSrc={reduxquiz}
-          imgAlt="Food quiz frontpage"
-          title="FOOD QUIZ APP"
-          subTitle="APP."
-          description=" Food quiz built with React & Redux - Mob programming
-          project"
-          listOfTags={reduxquizList}
-        />
 
         <Project
-          netlifyURL="https://perssons-todo.netlify.app/"
-          githubURL="https://github.com/Cilpersson/project-todos"
-          imgSrc={todo}
-          imgAlt="Todo app frontpage"
-          title="TODO APP"
-          subTitle="APP."
-          description=" Todo app built with React & Redux "
-          listOfTags={todoList}
+          netlifyURL="https://people-in-space-right-now.netlify.app/"
+          githubURL="https://github.com/Cilpersson/people-in-space"
+          imgSrc={astronauts}
+          imgAlt="People in space frontpage"
+          title="ASTRO FACTS"
+          subTitle="SITE."
+          description=" Little side project showing how many people that are in space right now. Still working on this to improve animations "
+          listOfTags={astronautsList}
         />
-
-        <Project
-          netlifyURL="https://perssons-happy-thoughts.netlify.com/"
-          githubURL="https://github.com/Cilpersson/project-happy-thoughts"
-          imgSrc={thoughts}
-          imgAlt="Happy thoughts app frontpage"
-          title="HAPPY THOUGHTS"
-          subTitle="APP."
-          description=" Site to read, like and post short messages. Posts and likes gets posted to an API "
-          listOfTags={thoughtsList}
-        />
-
-        <Project
-          netlifyURL="https://palm-oil-free.netlify.app/"
-          githubURL="https://github.com/Cilpersson/project-nutrition"
-          imgSrc={barcode}
-          imgAlt="Barcode scanner app frontpage"
-          title="SCANNER"
-          subTitle="APP."
-          description=" Site that uses the devices camera to scan a
-          barcode. Provides information from a food API - Pair programming
-          project "
-          listOfTags={barcodeList}
-        />
-
         <Project
           netlifyURL="https://dog-survey.netlify.app/"
           githubURL="https://github.com/Cilpersson/project-survey"
@@ -183,6 +181,10 @@ const Title = styled.h3`
 
   color: #000;
   background: #fbd444;
+
+  @media (min-width: 1024px) {
+    font-size: 50px;
+  }
 `;
 
 const CardGrid = styled.section`

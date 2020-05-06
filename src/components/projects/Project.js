@@ -106,17 +106,19 @@ const Title = styled.h2`
   z-index: 5;
   align-self: center;
   justify-self: center;
+  color: #d6d1cd;
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-shadow: 1px 1px #000, 2px 2px #fbd444;
 
   @media (min-width: 668px) {
     font-size: 40px;
   }
   @media (min-width: 1024px) {
-    font-size: 55px;
+    font-size: 4.2vw;
   }
 `;
 

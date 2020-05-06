@@ -79,6 +79,10 @@ const Title = styled.h3`
 
   color: #000;
   background: #fbd444;
+
+  @media (min-width: 1024px) {
+    font-size: 50px;
+  }
 `;
 
 const Emoji = styled.span.attrs(({ ariaLabel }) => ({
@@ -119,10 +123,19 @@ const SocialMediaWrapper = styled.div`
   height: 100px;
   width: 280px;
   margin: auto;
+
+  &:hover > *:not(:hover) {
+    opacity: 0.3;
+  }
+
+  &:hover > *:hover {
+    transform: scale(1.05);
+  }
 `;
 
 const A = styled.a`
   text-decoration: none;
   color: #fff;
   width: fit-content;
+  transition: all 0.2s;
 `;
