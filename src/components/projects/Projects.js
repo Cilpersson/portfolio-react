@@ -17,7 +17,15 @@ export const Projects = () => {
   const reduxquizList = ["react", "redux", "JSX", "styled-components", "git"];
   const directorsList = ["react", "JSX", "CSS 3", "API", "git"];
   const musicList = ["react", "JSX", "CSS 3", "API", "pair-programming", "git"];
-  const thoughtsList = ["react", "JSX", "SASS", "API", "git"];
+  const thoughtsList = [
+    "react",
+    "JSX",
+    "SASS",
+    "API",
+    "Mongo DB",
+    "Node.js",
+    "git",
+  ];
   const dogquizList = ["react", "JSX", "CSS 3", "git"];
   const portfolioList = ["react", "JSX", "styled-components", "git"];
   const astronautsList = [
@@ -40,7 +48,7 @@ export const Projects = () => {
 
   return (
     <MainWrapper id="projects">
-      <Space></Space>
+      <Space />
       <Title>FEATURED PROJECTS</Title>
       <CardGrid>
         <Project
@@ -82,7 +90,7 @@ export const Projects = () => {
           imgAlt="Happy thoughts app frontpage"
           title="HAPPY THOUGHTS"
           subTitle="APP."
-          description=" Site to read, like and post short messages. Posts and likes gets posted to an API "
+          description=" Fullstack project. Site to read, like and post short messages. Posts and likes gets stored in a DB via an API "
           listOfTags={thoughtsList}
         />
         <Project
