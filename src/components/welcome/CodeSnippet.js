@@ -38,9 +38,15 @@ export const CodeSnippet = () => {
           <br />
           description: <Dif fontColor="#8ed6df">"</Dif>
           <Dif fontColor="#aae478">
-            I don’t give up. No matter how tough the obstacle is. My second
-            greatest asset is that my ’not giving up’ persona spreads to others
-            as well!<Dif fontColor="#8ed6df">"</Dif>
+            Programming gives me the chance to be creative, and as with any
+            other creative field like music or art doing it 9-5 is not enough. I
+            think, live and breathe code and I always want to learn more. When I
+            get to discuss with others I learn the most, being surrounded by a
+            team is the best way for me to understand. Talking, explaining and
+            listening are things I value highly. When I code, no matter how
+            tough the obstacle may be I don’t give up. The ‘not giving up part’
+            in me is something that has a tendency to spread to others around me
+            as well.<Dif fontColor="#8ed6df">"</Dif>
           </Dif>
           <br />
           <Dif fontColor="#ffdf37">{"}"}</Dif>
@@ -52,8 +58,7 @@ export const CodeSnippet = () => {
         <Anchor
           href="https://codesandbox.io/s/codesnippets-for-react-h0jlq"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           avilable here
         </Anchor>
       </TerminalText>

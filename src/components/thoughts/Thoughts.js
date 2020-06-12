@@ -5,6 +5,7 @@ import thought from "images/thoughts/thoughts.jpg";
 import thoughtTwo from "images/thoughts/thoughts2.jpg";
 import thoughtThree from "images/thoughts/thoughts3.jpg";
 import thoughtFour from "images/thoughts/thoughts4.jpg";
+import thoughtFive from "images/thoughts/thoughts5.jpg";
 
 export const Thoughts = () => {
   return (
@@ -12,11 +13,19 @@ export const Thoughts = () => {
       <Space></Space>
       <Title>THOUGHTS</Title>
       <Thought
+        link="https://webdeveloperinthemaking.netlify.app/#sprint-five"
+        img={thoughtFive}
+        alt="Family of hippos swimming together"
+        date="MAY 2020"
+        title="Team work!"
+        previewText="The team I have had the great pleasure to be a part of during this bootcamp is The Hippo Team. I think they have taught me just as much about great team work as the boot camp has taught me about code. I thought I’d share a couple of things I have gotten to learn this spring thanks to seven incredible women."
+      />
+      <Thought
         link="https://webdeveloperinthemaking.netlify.com/#sprint-four"
         img={thoughtFour}
         alt="Sign that says you got this"
         date="APR 2020"
-        title="Remeber that you got this!"
+        title="Remember that you got this!"
         previewText="The Techingo bootcamp is slowly coming to an end, it’s gone by faster than I ever could have imagined. Since the end of the road is closing in, searching for jobs is almost the only thing I do and think about. I hear motivational talks about combining old and new knowledge, becoming that unique snowflake everyone will want to hire. Take your old work experience and… But wait a minute!?
 
         What if you don’t have years of work experience, does that mean that you can’t profile yourself in a unique way?"

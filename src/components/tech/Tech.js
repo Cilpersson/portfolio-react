@@ -36,7 +36,7 @@ export const Tech = () => {
     "BPMN",
   ];
 
-  const skillsBack = ["Node.js", "Mongo DB", "SQL"];
+  const skillsBack = ["Node.js", "Mongo DB", "Mongoose", "Cloudinary", "SQL"];
 
   return (
     <MainWrapper id="tech">

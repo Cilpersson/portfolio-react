@@ -11,8 +11,33 @@ import todo from "../../images/projects/todo.png";
 import reduxquiz from "../../images/projects/redux-quiz.png";
 import portfolio from "../../images/projects/portfolio.png";
 import astronauts from "../../images/projects/astronauts.png";
+import auth from "../../images/projects/auth.png";
+import photogrid from "../../images/projects/photogrid.png";
 
 export const Projects = () => {
+  const photogridList = [
+    "react",
+    "redux",
+    "JSX",
+    "styled-components",
+    "API",
+    "Mongo DB",
+    "Mongoose",
+    "Postman",
+    "Node.js",
+    "Cloudinary",
+    "git",
+  ];
+  const authList = [
+    "react",
+    "JSX",
+    "SASS",
+    "API",
+    "Mongo DB",
+    "Node.js",
+    "pair-programming",
+    "git",
+  ];
   const todoList = ["react", "redux", "JSX", "styled-components", "git"];
   const reduxquizList = ["react", "redux", "JSX", "styled-components", "git"];
   const directorsList = ["react", "JSX", "CSS 3", "API", "git"];
@@ -52,6 +77,16 @@ export const Projects = () => {
       <Title>FEATURED PROJECTS</Title>
       <CardGrid>
         <Project
+          netlifyURL=""
+          githubURL="https://github.com/Cilpersson/final-project"
+          imgSrc={photogrid}
+          imgAlt="Portfolio frontpage"
+          title="PHOTO GRID"
+          subTitle="SITE."
+          description=" My final project for the Technigo boot camp. This is my current project, it is not yet deployed but I would gladly show it for potential reqruiters. This project is who I am as a developer. "
+          listOfTags={photogridList}
+        />
+        <Project
           netlifyURL="http://christinapersson.se/"
           githubURL="https://github.com/Cilpersson/portfolio-react"
           imgSrc={portfolio}
@@ -60,6 +95,16 @@ export const Projects = () => {
           subTitle="SITE."
           description=" My portfolio built in react using styled-components "
           listOfTags={portfolioList}
+        />
+        <Project
+          netlifyURL="https://authentication-login.netlify.app/"
+          githubURL="https://github.com/Cilpersson/project-auth"
+          imgSrc={auth}
+          imgAlt="Movie site frontpage"
+          title="SIGN UP FORM"
+          subTitle="SITE."
+          description=" Signup and login form with backend authentication and password encryption "
+          listOfTags={authList}
         />
         <Project
           netlifyURL="https://pretty-decent-directors.netlify.com/"
@@ -93,7 +138,7 @@ export const Projects = () => {
           description=" Fullstack project. Site to read, like and post short messages. Posts and likes gets stored in a DB via an API "
           listOfTags={thoughtsList}
         />
-        <Project
+        {/* <Project
           netlifyURL="https://palm-oil-free.netlify.app/"
           githubURL="https://github.com/Cilpersson/project-nutrition"
           imgSrc={barcode}
@@ -104,7 +149,7 @@ export const Projects = () => {
           barcode. Provides information from a food API - Pair programming
           project "
           listOfTags={barcodeList}
-        />
+        /> */}
         <Project
           netlifyURL="https://perssons-todo.netlify.app/"
           githubURL="https://github.com/Cilpersson/project-todos"
@@ -116,17 +161,7 @@ export const Projects = () => {
           listOfTags={todoList}
         />
 
-        <Project
-          netlifyURL="https://people-in-space-right-now.netlify.app/"
-          githubURL="https://github.com/Cilpersson/people-in-space"
-          imgSrc={astronauts}
-          imgAlt="People in space frontpage"
-          title="ASTRO FACTS"
-          subTitle="SITE."
-          description=" Little side project showing how many people that are in space right now. Still working on this to improve animations "
-          listOfTags={astronautsList}
-        />
-        <Project
+        {/* <Project
           netlifyURL="https://dog-survey.netlify.app/"
           githubURL="https://github.com/Cilpersson/project-survey"
           imgSrc={dogquiz}
@@ -135,7 +170,7 @@ export const Projects = () => {
           subTitle="APP."
           description=" Dog quiz created with React components "
           listOfTags={dogquizList}
-        />
+        /> */}
         <Project
           netlifyURL="https://popularonspotify.netlify.com/"
           githubURL="https://github.com/Cilpersson/project-music-releases"
@@ -147,6 +182,16 @@ export const Projects = () => {
           data - Pair programming
           project "
           listOfTags={musicList}
+        />
+        <Project
+          netlifyURL="https://people-in-space-right-now.netlify.app/"
+          githubURL="https://github.com/Cilpersson/people-in-space"
+          imgSrc={astronauts}
+          imgAlt="People in space frontpage"
+          title="ASTRO FACTS"
+          subTitle="SITE."
+          description=" Little side project showing how many people that are in space right now. This is a work in progress. Next step is to create my own API with space facts. "
+          listOfTags={astronautsList}
         />
       </CardGrid>
       {<ReactNative />}
