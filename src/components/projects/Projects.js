@@ -77,13 +77,13 @@ export const Projects = () => {
       <Title>FEATURED PROJECTS</Title>
       <CardGrid>
         <Project
-          netlifyURL=""
+          netlifyURL="https://www.photogrid.community/"
           githubURL="https://github.com/Cilpersson/final-project"
           imgSrc={photogrid}
           imgAlt="Portfolio frontpage"
           title="PHOTO GRID"
           subTitle="SITE."
-          description=" My final project for the Technigo boot camp. This is my current project, it is not yet deployed but I would gladly show it for potential reqruiters. This project is who I am as a developer. "
+          description=" Final project I did during the Technigo boot camp. This is my no 1 pet project, and I will continue to work on it indefinitely. This project really shows who I am as a developer. "
           listOfTags={photogridList}
         />
         <Project
@@ -93,7 +93,7 @@ export const Projects = () => {
           imgAlt="Portfolio frontpage"
           title="PORTFOLIO"
           subTitle="SITE."
-          description=" My portfolio built in react using styled-components "
+          description=" My portfolio built in react using styled-components. I started out with code that was from my vanilla js portfolio where I used sass and turned it into a playful react portfolio "
           listOfTags={portfolioList}
         />
         <Project
@@ -117,7 +117,7 @@ export const Projects = () => {
           listOfTags={directorsList}
         />
 
-        <Project
+        {/* <Project
           netlifyURL="https://food-quiz.netlify.app/"
           githubURL="https://github.com/Cilpersson/project-redux-quiz-hippos"
           imgSrc={reduxquiz}
@@ -127,7 +127,7 @@ export const Projects = () => {
           description=" Food quiz built with React & Redux - Mob programming
           project"
           listOfTags={reduxquizList}
-        />
+        /> */}
         <Project
           netlifyURL="https://perssons-happy-thoughts.netlify.com/"
           githubURL="https://github.com/Cilpersson/project-happy-thoughts"
@@ -190,11 +190,11 @@ export const Projects = () => {
           imgAlt="People in space frontpage"
           title="ASTRO FACTS"
           subTitle="SITE."
-          description=" Little side project showing how many people that are in space right now. This is a work in progress. Next step is to create my own API with space facts. "
+          description=" Little side project showing how many people that are in space right now. This is a work in progress. Current step is to create my own API with space facts. "
           listOfTags={astronautsList}
         />
       </CardGrid>
-      {<ReactNative />}
+      {/* <ReactNative /> */}
     </MainWrapper>
   );
 };

@@ -7,9 +7,7 @@ export const Tech = () => {
   const skillsStyling = [
     "CSS",
     "SASS",
-    "Flexbox",
-    "Grid",
-    "CSS-animations",
+    "CSS animations",
     "CSS-in-JS",
     "Styled-components",
   ];
@@ -27,14 +25,16 @@ export const Tech = () => {
   ];
 
   const skillsOther = [
-    "API",
     "Git",
     "Mob programming",
     "Pair programming",
+    "Agile workflow",
     "Web Accessibly",
     "UML",
     "BPMN",
   ];
+
+  const skillsFuture = ["Typescript", "Angular", "Deep diving into Mongo DB"];
 
   const skillsBack = ["Node.js", "Mongo DB", "Mongoose", "Cloudinary", "SQL"];
 
@@ -130,4 +130,15 @@ const TechImageContainer = styled.div`
 
 const Img = styled.img`
   width: inherit;
+`;
+
+const FutureTechContainer = styled.section`
+  font-size: 25px;
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+  box-sizing: border-box;
+
+  @media (min-width: 668px) {
+  }
 `;

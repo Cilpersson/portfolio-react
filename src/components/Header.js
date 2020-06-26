@@ -12,8 +12,8 @@ export const Header = () => {
     <HeaderWrapper>
       <Layer>
         <Typing loop={true} hideCursor="true" speed={200}>
-          <Span>Web Developer</Span>
-          <Typing.Reset count={1} delay={450} />
+          <Span>DEVELOPER</Span>
+          <Typing.Reset count={1} delay={550} />
         </Typing>
         <Button>
           <Link smooth={true} to="welcome">
