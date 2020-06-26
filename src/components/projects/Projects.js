@@ -77,13 +77,13 @@ export const Projects = () => {
       <Title>FEATURED PROJECTS</Title>
       <CardGrid>
         <Project
-          netlifyURL=""
+          netlifyURL="https://www.photogrid.community"
           githubURL="https://github.com/Cilpersson/final-project"
           imgSrc={photogrid}
           imgAlt="Portfolio frontpage"
           title="PHOTO GRID"
           subTitle="SITE."
-          description=" My final project for the Technigo boot camp. This is my current project, it is not yet deployed but I would gladly show it for potential reqruiters. This project is who I am as a developer. "
+          description=" My final project for the Technigo boot camp. This is my no 1 pet project, I come up with new things I want to add all the time. This project truly defines who I am as a developer. If you wish to read more about it there is a reflections page on the website. "
           listOfTags={photogridList}
         />
         <Project
@@ -194,7 +194,7 @@ export const Projects = () => {
           listOfTags={astronautsList}
         />
       </CardGrid>
-      {<ReactNative />}
+      {/* {<ReactNative />} */}
     </MainWrapper>
   );
 };
