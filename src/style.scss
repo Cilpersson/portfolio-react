@@ -1,0 +1,593 @@
+// body {
+//   margin: 0;
+//   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+//     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+//     sans-serif;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+//     monospace;
+// }
+
+// $yellow: #fbd444;
+// $black: #000;
+// $lightgrey: #d6d1cd;
+// $grey: #808080;
+// $white: #fff;
+
+// h1 {
+//   position: absolute;
+//   z-index: 10;
+//   margin: 0;
+//   font-size: 45px;
+
+//   color: $grey;
+// }
+
+// h2 {
+//   grid-row-start: 7;
+//   grid-row-end: 8;
+//   grid-column-start: 1;
+//   grid-column-end: 5;
+//   margin: 0;
+// }
+
+// h3 {
+//   text-align: center;
+//   font-weight: bolder;
+//   font-size: 30px;
+//   letter-spacing: 1px;
+
+//   width: fit-content;
+
+//   margin: 0 auto 20px;
+//   padding: 2px 6px;
+
+//   color: $black;
+//   background: $yellow;
+// }
+
+// h4 {
+//   font-family: "Roboto";
+//   color: $black;
+//   background: $lightgrey;
+//   margin: 0;
+//   white-space: nowrap;
+//   font-weight: bolder;
+//   letter-spacing: 2px;
+//   padding: 4px;
+//   margin: 4px 4px 4px 0;
+//   width: fit-content;
+
+//   box-shadow: inset 0px 15px $yellow;
+// }
+
+// .github-link {
+//   font-family: "Roboto";
+//   color: #000;
+//   background: #fbd444;
+
+//   font-size: 20px;
+//   font-weight: bold;
+//   letter-spacing: 6px;
+//   text-align: center;
+
+//   padding: 4px;
+//   margin: 10px auto;
+
+//   width: 100%;
+
+//   box-sizing: border-box;
+//   box-shadow: inset 0px 16px #d6d1cd;
+
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// p {
+//   color: $black;
+//   margin: 0 0 10px 0;
+// }
+
+// a {
+//   text-decoration: none;
+//   color: $white;
+//   width: fit-content;
+// }
+
+// .credit {
+//   color: $black;
+//   font-size: 28px;
+//   margin: 0;
+//   display: flex;
+//   align-items: flex-end;
+//   justify-content: flex-end;
+// }
+
+// .credit-single {
+//   color: $black;
+//   font-size: 28px;
+//   margin: 50px 0;
+//   display: flex;
+//   align-items: flex-end;
+// }
+
+// .credit-main-wrapper {
+//   display: flex;
+//   flex-direction: column;
+//   padding: 0 10px;
+//   margin: auto;
+//   min-height: 90vh;
+//   max-width: 375px;
+//   background: $white;
+// }
+
+// .credit-a {
+//   color: $black;
+//   background: $yellow;
+//   margin-left: 5px;
+//   max-width: 110px;
+//   font-weight: 700;
+// }
+
+// .credit-wrapper-lottie {
+//   display: flex;
+//   flex-direction: column-reverse;
+//   align-self: flex-end;
+//   margin: 50px 0;
+// }
+
+// .credit-wrapper-icons {
+//   margin: 50px 0;
+// }
+
+// .credit-wrapper-social-media {
+//   display: flex;
+//   flex-direction: column;
+//   background: $yellow;
+// }
+
+// span {
+//   font-family: "Roboto";
+//   font-weight: bold;
+//   color: $black;
+// }
+
+// .emoji {
+//   text-align: center;
+//   font-size: 65px;
+//   margin: 0;
+//   opacity: 0.8;
+// }
+
+// .active {
+//   color: $yellow;
+//   font-weight: bolder;
+//   width: fit-content;
+// }
+// /*HEADER*/
+// .header {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: column;
+
+//   height: 100vh;
+
+//   background: black;
+//   background-image: url("../images/header/headermobile.jpg");
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+
+// .header-section {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: column;
+
+//   height: 100%;
+//   width: 100%;
+
+//   background: #00000015;
+// }
+
+// .header-social-media {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   justify-content: space-evenly;
+//   background: $white;
+//   height: 100px;
+//   width: 280px;
+//   margin: 0 auto;
+//   top: 5%;
+//   position: absolute;
+// }
+
+// .header-img {
+//   max-width: 100%;
+// }
+
+// .header-button {
+//   position: absolute;
+//   bottom: 0;
+
+//   transition: 0.3s;
+//   animation: floating 1.5s ease-in-out infinite;
+
+//   &:hover {
+//     transform: scale(1.1);
+//     cursor: pointer;
+//   }
+// }
+
+// .header-span {
+//   color: $white;
+//   font-size: 14vw;
+//   font-weight: lighter;
+// }
+// /*NAV BAR*/
+// nav {
+//   display: flex;
+//   flex-direction: column;
+//   padding: 18px 0 0 0;
+
+//   position: sticky;
+//   top: 0;
+//   z-index: 10;
+
+//   background: $black;
+// }
+
+// .nav-title {
+//   color: $yellow;
+//   width: fit-content;
+// }
+
+// ul {
+//   display: flex;
+//   align-self: flex-end;
+
+//   margin: 0;
+//   padding: 0;
+// }
+
+// li {
+//   list-style: none;
+// }
+
+// .testing {
+//   height: 82px;
+// }
+
+// .main-wrapper {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   padding: 0 10px;
+//   min-height: 90vh;
+
+//   background: $white;
+// }
+
+// .wrapper-404 {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: flex-start;
+//   padding: 0 10px;
+//   min-height: 88vh;
+
+//   background: $white;
+// }
+
+// .text-404 {
+//   text-align: center;
+//   font-weight: bolder;
+//   font-size: 30px;
+//   letter-spacing: 1px;
+
+//   width: fit-content;
+
+//   margin: 0 auto 100px;
+//   padding: 2px 6px;
+
+//   color: $black;
+//   background: $yellow;
+// }
+
+// /*WELCOME*/
+// .welcome-social-media {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   justify-content: space-evenly;
+//   background: $yellow;
+//   height: 100px;
+//   width: 280px;
+//   margin: 10px auto;
+// }
+
+// .about-me {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   width: 100%;
+
+//   padding: 30px;
+//   margin: auto;
+
+//   box-sizing: border-box;
+//   box-shadow: inset -10px 0px $lightgrey, inset -20px 0px $yellow,
+//     inset 10px 0px $yellow, inset 20px 0px $lightgrey;
+// }
+
+// .about-me-code {
+//   background: $black;
+
+//   padding: 10px;
+//   border-radius: 10px;
+
+//   width: fit-content;
+// }
+
+// .about-me-p {
+//   margin: 5px;
+// }
+
+// .about-me-span {
+//   margin-left: 10px;
+// }
+
+// /*TECH*/
+// .all-tech-containers {
+//   display: grid;
+//   grid-template-columns: 1fr;
+// }
+
+// .tech-container {
+//   font-size: 25px;
+//   width: 100%;
+//   margin: 20px 0 0 0;
+//   padding: 10px;
+//   box-sizing: border-box;
+//   box-shadow: inset -10px 0px $lightgrey, inset 0px 10px $yellow;
+// }
+// .tech-image-container {
+//   margin-top: 20px;
+//   width: 100%;
+// }
+// .tech-image {
+//   width: inherit;
+// }
+
+// /*PROJECTS*/
+
+// .project-title {
+//   font-size: 35px;
+// }
+// .card-grid {
+//   display: grid;
+//   justify-content: center;
+//   gap: 20px 50px;
+//   margin: auto;
+//   justify-self: center;
+//   grid-template-columns: 1fr;
+// }
+
+// .project-view {
+//   display: grid;
+//   grid-template-columns: repeat(4, 1fr);
+//   grid-template-rows: repeat(4, 1fr);
+//   justify-self: center;
+//   margin: 36px auto 0;
+//   text-align: center;
+//   transition: transform 0.2s;
+// }
+
+// .project-view:hover {
+//   transform: scale(1.1);
+// }
+
+// .project-view:hover .layer {
+//   opacity: 0;
+//   transition: opacity 0.4s ease-out;
+// }
+
+// .project-view:hover h2 {
+//   opacity: 0;
+//   transition: opacity 0.4s ease-out;
+// }
+
+// .project-view img {
+//   grid-column-start: 1;
+//   grid-column-end: 5;
+//   grid-row-start: 1;
+//   grid-row-end: 5;
+//   width: 100%;
+// }
+
+// .layer {
+//   background: #000;
+//   opacity: 0.6;
+//   grid-column-start: 1;
+//   grid-column-end: 5;
+//   grid-row-start: 1;
+//   grid-row-end: 5;
+//   width: 100%;
+//   z-index: 3;
+//   visibility: visible;
+// }
+
+// .project-view h2 {
+//   font-size: 40px;
+//   grid-row-start: 1;
+//   z-index: 5;
+//   align-self: center;
+//   justify-self: center;
+//   width: 100%;
+//   height: 100%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// .project-card {
+//   margin: auto;
+// }
+
+// .project-card p {
+//   grid-column-end: 5;
+//   margin: 0;
+//   grid-column-start: 1;
+//   margin-bottom: 10px;
+// }
+
+// .github-wrapper {
+//   display: flex;
+// }
+
+// .code-button {
+//   display: none;
+//   color: $black;
+//   background: $lightgrey;
+//   width: fit-content;
+//   font-size: 16px;
+//   font-weight: bolder;
+//   letter-spacing: 2px;
+//   padding: 4px;
+//   margin: 20px auto;
+//   border: none;
+//   min-height: 39px;
+// }
+
+// .code-button:hover {
+//   color: $yellow;
+//   background: $black;
+// }
+
+// .tag-container {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+// .thoughts {
+//   padding: 46px 36px;
+//   display: flex;
+//   flex-direction: column;
+// }
+// .thoughts-header {
+//   font-weight: bold;
+//   margin: 5px 0;
+//   font-size: 17px;
+//   align-self: flex-start;
+// }
+
+// .thoughts-span {
+//   font-weight: bolder;
+//   align-self: flex-start;
+// }
+
+// .thoughts-container {
+//   flex-direction: row;
+//   margin: auto;
+//   align-items: center;
+//   width: 80%;
+// }
+
+// .thoughts-img {
+//   width: 100%;
+//   align-self: center;
+// }
+
+// @media (min-width: 668px) {
+//   h1 {
+//     font-size: 80px;
+//   }
+//   .card-grid {
+//     grid-template-columns: 1fr 1fr;
+
+//     justify-items: center;
+//     grid-gap: 20px 50px;
+//   }
+//   .header {
+//     background-image: url("../images/header/header.jpg");
+//   }
+
+//   .main-wrapper {
+//     padding: 20px 40px;
+//   }
+
+//   .credit-main-wrapper {
+//     padding: 20px 40px;
+//   }
+
+//   .all-tech-containers {
+//     grid-template-columns: 1fr 1fr;
+//     gap: 20px;
+//   }
+
+//   .tech-container {
+//     padding: 20px 40px;
+//   }
+
+//   .about-me {
+//     padding: 40px;
+//   }
+
+//   .about-me-p {
+//     width: 75%;
+//   }
+// }
+
+// @media (min-width: 1024px) {
+//   h1 {
+//     font-size: 14vw;
+//   }
+//   .main-wrapper {
+//     padding: 20px 250px;
+//   }
+
+//   .credit-main-wrapper {
+//     padding: 20px 250px;
+//   }
+
+//   .about-me-p {
+//     font-size: 20px;
+//     width: 50%;
+//   }
+
+//   .code-button {
+//     display: block;
+//   }
+
+//   .wrapper-404 {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: flex-start;
+//     padding: 0 10px;
+//     min-height: 92vh;
+
+//     background: $white;
+//   }
+// }
+
+// @keyframes floating {
+//   0% {
+//     bottom: 0px;
+//   }
+
+//   50% {
+//     bottom: 15px;
+//   }
+
+//   100% {
+//     bottom: 0px;
+//   }
+// }
